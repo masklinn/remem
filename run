@@ -1,0 +1,44 @@
+#!/usr/bin/env python
+"""
+re2 utf8
+re2 latin
+regex unicode string
+regex ascii string
+regex unicode bytes
+regex ascii bytes
+"""
+from subprocess import run, PIPE, DEVNULL
+import sys
+
+MODES = [
+    ("re2 utf8", ["./remem", "-q"]),
+    ("re2 latin1", ["./remem", "-q", "-a"]),
+    ("regex unicode/string", ["cargo", "r", "-qr", "--", "-q"]),
+    ("regex ascii/string", ["cargo", "r", "-qr", "--", "-q", "-a"]),
+    ("regex ascii/bytes", ["cargo", "r", "-qr", "--", "-q", "-a", "-b"]),
+]
+
+print(" | ".join(
+    label.center(9*2 + 3)
+    for label, _ in MODES
+), end=" |\n")
+print(" | ".join(
+    f"{'compile':^9} | {'capture':^9}"
+    for _ in MODES
+), end=" | expression\n")
+
+for line in sys.stdin:
+    print(" | ".join(
+        value.center(9)
+        for _, cmd in MODES
+        for value in run(
+            cmd,
+            input=line.rstrip("\n"),
+            stdout=PIPE,
+            stderr=DEVNULL,
+            encoding="utf-8",
+        ).stdout.split() or ["-", "-"]
+    ), end="")
+    print(" |", line.rstrip("\n"))
+        
+        

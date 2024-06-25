@@ -1,0 +1,1183 @@
+ ((?:SCH)\-[A-Za-z0-9 ]{1,50})(/?[^ ]*|) Build
+ (ATP[0-9]{4})(?: Build|\) AppleWebKit)
+ (BoxNotes)/(\d+)\.(\d+)\.(\d+)
+ (Dar)(win)/(10).(\d+).*\((?:i386|x86_64)\)
+ (Dar)(win)/(11).(\d+).{0,100}\((?:i386|x86_64)\)
+ (Dar)(win)/(12).(\d+).{0,100}\((?:i386|x86_64)\)
+ (Dar)(win)/(13).(\d+).{0,100}\((?:i386|x86_64)\)
+ (Dar)(win)/(9).(\d+).{0,100}\((?:i386|x86_64|Power Macintosh)\)
+ (Kindle)/(\d+\.\d+)
+ (PTST)/(\d+)(?:\.(\d+)|)$
+ (Rivo) RHYTHM
+ (Silk|Kindle)/(\d+)\.
+ (VLC) for
+ (VT\d{2}[A-Za-z]*)(?: Build|\) AppleWebKit)
+ ?(TOOKY)[ _\-]([^;/]{1,100}) ?(?:Build|;)
+ Build/(RK\d+)
+ Mobile .{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)
+ PTST/\d+(?:\.\d+|)$
+((?:B|b)rave(?:\sChrome)?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)
+((?:Mac[ +]?|; )OS[ +]X)[\s+/](?:(\d+)[_.](\d+)(?:[_.](\d+)|)|Mach-O)
+(1Password)/(\d+)\.(\d+)\.(\d+)
+(?:(WeTab)-Browser|; (wetab) Build)
+(?:; {0,2}|^)((?:GT\-[BIiNPS]\d{4}|I9\d{2}0[A-Za-z\+]?\b)[^;/\)]*?)(?:Build|Linux|MIUI|[;/\)])
+(?:; |\/|^)((?:Transformer (?:Pad|Prime) |Transformer |PadFone[ _]?)[A-Za-z0-9]*)
+(?:ALCATEL|Alcatel)-([A-Za-z0-9\-]+)
+(?:ARCHOS|Archos)[ _]?(.{0,200}?)(?: Build|[;/\(\)\-]|$)
+(?:ASUS)_([A-Za-z0-9\-]+)
+(?:Amoi|AMOI)\-([A-Za-z0-9]+)
+(?:Chrome).{1,300}(OPR)/(\d+)\.(\d+)\.(\d+)
+(?:InettvBrowser|TSBNetTV|NETTV|HBBTV)
+(?:MSIE|XBMC).{0,200}\b(Xbox)\b
+(?:Mobile Safari).{1,300}(OPR)/(\d+)\.(\d+)\.(\d+)
+(?:Mobile|Tablet);.{0,200}(Firefox)/(\d+)\.(\d+)
+(?:NOKIA|Nokia)(?:\-| {0,2})(?:([A-Za-z0-9]+)\-[0-9a-f]{32}|([A-Za-z0-9\-]+)(?:UCBrowser)|([A-Za-z0-9\-]+))
+(?:PPC|Intel) (Mac OS X)
+(?:Pantech|PANTECH)[ _-]?([A-Za-z0-9\-]+)
+(?:Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)]|WPDesktop;) ?(?:ARM; ?Touch; ?|Touch; ?|)(?:NOKIA|Nokia)[^;]{0,200}; {0,2}(?:NOKIA ?|Nokia ?|LUMIA ?|[Ll]umia ?|)([^;\)]+)
+(?:[;,] {0,2}|^)(?:htccn_chs-|)HTC[ _-]?([^;]{1,200}?)(?: {0,2}Build|clay|Android|-?Mozilla| Opera| Profile| UNTRUSTED|[;/\(\)]|$)
+(?:^LG[\-]?|^LGE[\-/]?)([A-Za-z]+[0-9]+[A-Za-z]*)
+(?:^|; )SAMSUNG\-([A-Za-z0-9\-]{1,50}).{0,200} Bada/
+(?:asus.{0,200}?ASUS|Asus|ASUS|asus)[\- ;]*((?:Transformer (?:Pad|Prime) |Transformer |Padfone |Nexus[ _]|)[A-Za-z0-9]+)
+(AOL) (\d+)\.(\d+); AOLBuild (\d+)
+(AVG)/(\d+)\.(\d+)\.(\d+)\.\d+
+(Airmail) (\d+)\.(\d+)(?:\.(\d+)|)
+(AlohaBrowser)/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)
+(Android 3\.\d|Opera Tablet|Tablet; .{1,100}Firefox/|Android.{0,100}(?:Tab|Pad))
+(Android) (\d+)(?:\.(\d+)).*CrKey
+(Android) (\d+);
+(Android) Donut
+(Android) Eclair
+(Android) Froyo
+(Android) Gingerbread
+(Android) Honeycomb
+(Android): (\d+)(?:\.(\d+)(?:\.(\d+)|)|);
+(Android)[ \-/](\d+)(?:\.(\d+)|)(?:[.\-]([a-z0-9]+)|)
+(Antenna)/(\d+) CFNetwork
+(AnyConnect)\/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)
+(Apple Watch)(?:;| Simulator;)
+(AppleWebKit)/(\d+)(?:\.(\d+)|)\+ .{0,200} Safari
+(AppleWebKit)/(\d+)\.(\d+)\.(\d+)
+(Apple\s?TV)
+(Apple\s?TV)(?:/(\d+)\.(\d+)|)
+(ArcGIS Pro)(?: (\d+)\.(\d+)\.([^ ]+)|)
+(Avant)
+(AvantGo) (\d+).(\d+)
+(AvastSecureBrowser|Avast)/(\d+)\.(\d+)\.(\d+)
+(BB10);.{1,200}Version/(\d+)\.(\d+)\.(\d+)
+(BREW);
+(BREW)[ /](\d+)\.(\d+)\.(\d+)
+(BacaBerita App)\/(\d+)\.(\d+)\.(\d+)
+(Barca(?:Pro)?)/(\d+)\.(\d+)(?:\.(\d+)|)
+(Black[Bb]erry)
+(Black[Bb]erry).{1,200}Version/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)
+(Black[Bb]erry)[0-9a-z]+/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|)
+(Black[bB]erry)\s?(\d+)
+(Black[bB]erry|BB10).{1,200}Version/(\d+)\.(\d+)\.(\d+)
+(Blazer)/(\d+)\.(\d+)
+(BonEcho)/(\d+)\.(\d+)\.?([ab]?\d+|)
+(Brew MP|BMP)[ /](\d+)\.(\d+)\.(\d+)
+(BrowseX) \((\d+)\.(\d+)\.(\d+)
+(BrowserNG)/(\d+)\.(\d+).(\d+)
+(CF)(Network)/(720)\.(\d)
+(CF)(Network)/(760)\.(\d)
+(CF)(Network)/6(7)(2)\.1\.15
+(CF)(Network)/711\.(\d)
+(CF)(Network)/758\.(\d)
+(CF)(Network)/808\.(\d)
+(CFNetwork)(?:/(\d+)\.(\d+)(?:\.(\d+)|)|)
+(CFNetwork)/(4)85\.1(3)\.9
+(CFNetwork)/(5)48\.(0)\.4.{0,100} Darwin/(1)1\.0\.0
+(CFNetwork)/(5)48\.(1)\.4
+(CFNetwork)/(5)48\.0\.3.{0,100} Darwin/11\.0\.0
+(CFNetwork)/(6)(0)9
+(CFNetwork)/(6)09\.(1)\.4
+(CFNetwork)/6(7)2\.(0)\.(?:2|8)
+(CFNetwork)/6(7)2\.(1)\.(1)4
+(CFNetwork)/6(7)2\.(1)\.13
+(CFNetwork)/709\.1
+(CITA) RSS Aggregator/(\d+)\.(\d+)
+(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone)[ +]+(\d+)[_\.](\d+)(?:[_\.](\d+)|).{0,100}Outlook-iOS-Android
+(CPU[ +]OS|iPhone[ +]OS|CPU[ +]iPhone|CPU IPhone OS|CPU iPad OS)[ +]+(\d+)[_\.](\d+)(?:[_\.](\d+)|)
+(CSimpleSpider|Cityreview Robot|CrawlDaddy|CrawlFire|Finderbots|Index crawler|Job Roboter|KiwiStatus Spider|Lijit Crawler|QuerySeekerSpider|ScollSpider|Trends Crawler|USyd-NLP-Spider|SiteCat Webbot|BotName\/\$BotVersion|123metaspider-Bot|1470\.net crawler|50\.nu|8bo Crawler Bot|Aboundex|Accoona-[A-z]{1,30}-Agent|AdsBot-Google(?:-[a-z]{1,30}|)|altavista|AppEngine-Google|archive.{0,30}\.org_bot|archiver|Ask Jeeves|[Bb]ai[Dd]u[Ss]pider(?:-[A-Za-z]{1,30})(?:-[A-Za-z]{1,30}|)|bingbot|BingPreview|blitzbot|BlogBridge|Bloglovin|BoardReader Blog Indexer|BoardReader Favicon Fetcher|boitho.com-dc|BotSeer|BUbiNG|\b\w{0,30}favicon\w{0,30}\b|\bYeti(?:-[a-z]{1,30}|)|Catchpoint(?: bot|)|[Cc]harlotte|Checklinks|clumboot|Comodo HTTP\(S\) Crawler|Comodo-Webinspector-Crawler|ConveraCrawler|CRAWL-E|CrawlConvera|Daumoa(?:-feedfetcher|)|Feed Seeker Bot|Feedbin|findlinks|Flamingo_SearchEngine|FollowSite Bot|furlbot|Genieo|gigabot|GomezAgent|gonzo1|(?:[a-zA-Z]{1,30}-|)Googlebot(?:-[a-zA-Z]{1,30}|)|Google SketchUp|grub-client|gsa-crawler|heritrix|HiddenMarket|holmes|HooWWWer|htdig|ia_archiver|ICC-Crawler|Icarus6j|ichiro(?:/mobile|)|IconSurf|IlTrovatore(?:-Setaccio|)|InfuzApp|Innovazion Crawler|InternetArchive|IP2[a-z]{1,30}Bot|jbot\b|KaloogaBot|Kraken|Kurzor|larbin|LEIA|LesnikBot|Linguee Bot|LinkAider|LinkedInBot|Lite Bot|Llaut|lycos|Mail\.RU_Bot|masscan|masidani_bot|Mediapartners-Google|Microsoft .{0,30} Bot|mogimogi|mozDex|MJ12bot|msnbot(?:-media {0,2}|)|msrbot|Mtps Feed Aggregation System|netresearch|Netvibes|NewsGator[^/]{0,30}|^NING|Nutch[^/]{0,30}|Nymesis|ObjectsSearch|OgScrper|Orbiter|OOZBOT|PagePeeker|PagesInventory|PaxleFramework|Peeplo Screenshot Bot|PHPCrawl|PlantyNet_WebRobot|Pompos|Qwantify|Read%20Later|Reaper|RedCarpet|Retreiver|Riddler|Rival IQ|scooter|Scrapy|Scrubby|searchsight|seekbot|semanticdiscovery|SemrushBot|Simpy|SimplePie|SEOstats|SimpleRSS|SiteCon|Slackbot-LinkExpanding|Slack-ImgProxy|Slurp|snappy|Speedy Spider|Squrl Java|Stringer|TheUsefulbot|ThumbShotsBot|Thumbshots\.ru|Tiny Tiny RSS|Twitterbot|WhatsApp|URL2PNG|Vagabondo|VoilaBot|^vortex|Votay bot|^voyager|WASALive.Bot|Web-sniffer|WebThumb|WeSEE:[A-z]{1,30}|WhatWeb|WIRE|WordPress|Wotbox|www\.almaden\.ibm\.com|Xenu(?:.s|) Link Sleuth|Xerka [A-z]{1,30}Bot|yacy(?:bot|)|YahooSeeker|Yahoo! Slurp|Yandex\w{1,30}|YodaoBot(?:-[A-z]{1,30}|)|YottaaMonitor|Yowedo|^Zao|^Zao-Crawler|ZeBot_www\.ze\.bz|ZooShot|ZyBorg|ArcGIS Hub Indexer)(?:[ /]v?(\d+)(?:\.(\d+)(?:\.(\d+)|)|)|)
+(Chimera|SeaMonkey|Camino|Waterfox)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*|)
+(Chrome)/(\d+)\.(\d+)\.(\d+).{0,100} MRCHROME
+(Chrome)/(\d+)\.(\d+)\.(\d+)[\d.]{0,100} Iron[^/]
+(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+) Mobile(?:[ /]|$)
+(Chromium|Chrome)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+(Coast)/(\d+).(\d+).(\d+)
+(Collector|Explorer|Workforce)-(?:Android|iOS)-(\d+)\.(\d+)(?:\.(\d+)|)
+(Comodo_Dragon)/(\d+)\.(\d+)\.(\d+)
+(CrMo)/(\d+)\.(\d+)\.(\d+)\.(\d+)
+(CrOS) [a-z0-9_]+ (\d+)\.(\d+)(?:\.(\d+)|)
+(CriOS)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)
+(Crosswalk)/(\d+)\.(\d+)\.(\d+)\.(\d+)
+(Custom)-Feed Reader
+(DAVdroid)/(\d+)\.(\d+)(?:\.(\d+)|)
+(Download Master)
+(Dreamcast)
+(ELinks) \((\d+)\.(\d+)
+(ELinks)/(\d+)\.(\d+)
+(ESPN) Radio (\d+)\.(\d+)(?:\.(\d+)|) ?(?:rv:(\d+)|) 
+(ESPN)[%20| ]+Radio/(\d+)\.(\d+)\.(\d+) CFNetwork
+(Ecosia) android@(\d+)\.(\d+)\.(\d+)\.(\d+)
+(Ecosia) ios@(\d+)\.(\d+)\.(\d+)\.(\d+)
+(Edge?)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)
+(EdgiOS|EdgA)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)
+(Embider)/(\d+)\.(\d+)
+(Espial)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+(Evolution)/(\d+)\.(\d+)\.(\d+\.\d+)
+(Explorer|Collector)/(\d+) CFNetwork
+(FME)\/(\d+\.\d+)\.(\d+)\.(\d+)
+(Fancy) Cloud Music (\d+)\.(\d+)
+(Fedora|Red Hat|PCLinuxOS|Puppy|Ubuntu|Kindle|Bada|Sailfish|Lubuntu|BackTrack|Slackware|(?:Free|Open|Net|\b)BSD)[/ ](\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+(Fennec)/(\d+)\.(\d+)
+(Fennec)/(\d+)\.(\d+)(pre)
+(Fennec)/(\d+)\.(\d+)\.?([ab]?\d+[a-z]*)
+(Firefox)-(?:\d+\.\d+|)/(\d+)\.(\d+)(a\d+[a-z]*)
+(Firefox)-(?:\d+\.\d+|)/(\d+)\.(\d+)(b\d+[a-z]*)
+(Firefox).{0,200}Tablet browser (\d+)\.(\d+)\.(\d+)
+(Firefox)/(\d+)\.(\d+) Basilisk/(\d+)
+(Firefox)/(\d+)\.(\d+)(?:\.(\d+)|$)
+(Firefox)/(\d+)\.(\d+)([ab]\d+[a-z]*|) \(Swiftfox\)
+(Firefox)/(\d+)\.(\d+)(a\d+[a-z]*)
+(Firefox)/(\d+)\.(\d+)(b\d+[a-z]*)
+(Firefox)/(\d+)\.(\d+)(pre|[ab]\d+[a-z]*|)
+(Firefox)/(\d+)\.(\d+)\.(\d+(?:pre|)) \(Swiftfox\)
+(Flock)/(\d+)\.(\d+)(b\d+?)
+(FlyFlow)/(\d+)\.(\d+)
+(FxiOS)/(\d+)\.(\d+)(\.(\d+)|)(\.(\d+)|)
+(GeoEvent Server) (\d+)(?:\.(\d+)(?:\.(\d+)|)|)
+(Ghost)/(\d+)\.(\d+)\.(\d+)
+(Google-HTTP-Java-Client|Apache-HttpClient|PostmanRuntime|Go-http-client|scalaj-http|http%20client|Python-urllib|HttpMonitor|TLSProber|WinHTTP|JNLP|okhttp|aihttp|reqwest|axios|unirest-(?:java|python|ruby|nodejs|php|net))(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)
+(GoogleTV)
+(GoogleTV)(?: (\d+)\.(\d+)(?:\.(\d+)|)|/[\da-z]+)
+(HbbTV)(?:/1\.1\.1|) ?(?: \(;;;;;\)|); {0,2}CE-HTML(?:/1\.\d|); {0,2}([^ ]{1,30}) ([^;]{1,200});
+(HbbTV)/(\d+)\.(\d+)\.(\d+) \(
+(HbbTV)/1\.1\.1 \(;;;;;\) Maple_2011
+(HbbTV)/1\.1\.1.{0,200}CE-HTML/1\.\d;(Vendor/|)(THOM[^;]{0,200}?)[;\s].{0,30}(LF[^;]{1,200});?
+(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+
+(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \( ?;(LG)E ?;([^;]{0,30})
+(HbbTV)/[0-9]+\.[0-9]+\.[0-9]+ \([^;]{0,30}; ?(?:CUS:([^;]{0,200})|([^;]{1,200})) ?; ?([^;]{0,30})
+(HeadlessChrome)(?:/(\d+)\.(\d+)\.(\d+)|)
+(HipChat)/?(\d+|)
+(HomePod)(?:;| Simulator;)
+(HuaweiBrowser)/(\d+)\.(\d+)\.(\d+)\.\d+
+(IEMobile)[ /](\d+)\.(\d+)
+(Instabridge)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+(JOSM)/(\d+)\.(\d+)
+(Java)[/ ]?(\d+)\.(\d+)\.(\d+)
+(Java)[/ ]?\d{1}\.(\d+)\.(\d+)[_-]*([a-zA-Z0-9]+|)
+(KIN\.[^ ]+) (\d+)\.(\d+)
+(K[Aa][Ii]OS)\/(\d+)\.(\d+)(?:\.(\d+)|)
+(Kindle)/(\d+)\.(\d+)
+(Kinoma)(\d+)
+(Kurio)\/(\d+)\.(\d+)\.(\d+)
+(LG Player|Doppler|FancyMusic|MediaMonkey|Clementine) (\d+)\.(\d+)\.?([^.\s]+|)\.?([^.\s]+|)
+(Ladybird)\/(\d+)\.(\d+)
+(Line)/(\d+)\.(\d+)\.(\d+)
+(Links) \((\d+)\.(\d+)
+(Linux Mint)(?:/(\d+)|)
+(Linux)(?:[ /](\d+)\.(\d+)(?:\.(\d+)|)|)
+(Linux)[ /](\d+)\.(\d+)(?:\.(\d+)|).{0,100}gentoo
+(Lotus-Notes)/(\d+)\.(\d+)(?:\.(\d+)|)
+(MAXTHON|Maxthon) (\d+)\.(\d+)
+(MQQBrowser)(?:/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)
+(MQQBrowser/Mini)(?:(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)
+(MSIE) (\d+)\.(\d+)([a-z]\d|[a-z]|);.{0,200} MSIECrawler
+(MSIE) (\d+)\.(\d+).{0,100}XBLWP7
+(Mandriva)(?: Linux|)/(?:[\d.-]+m[a-z]{2}(\d+).(\d)|)
+(Maxthon|MyIE2|Uzbl|Shiira)
+(MeeGo)
+(Mint Browser)/(\d+)\.(\d+)\.(\d+)
+(MiuiBrowser)/(\d+)\.(\d+)\.(\d+)
+(MozillaDeveloperPreview)/(\d+)\.(\d+)([ab]\d+[a-z]*|)
+(MullvadBrowser)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+(MusicDownloader)Lite/(\d+)\.(\d+)\.(\d+) CFNetwork
+(MxBrowser)/(\d+)\.(\d+)(?:\.(\d+)|)
+(MyIBrow)/(\d+)\.(\d+)
+(NCSA_Mosaic)/(\d+)\.(\d+)
+(Namoroka|Shiretoko|Minefield)/(\d+)\.(\d+)([ab]\d+[a-z]*|)
+(Namoroka|Shiretoko|Minefield)/(\d+)\.(\d+)\.(\d+(?:pre|))
+(Navigator)/(\d+)\.(\d+)([ab]\d+)
+(Navigator)/(\d+)\.(\d+)\.(\d+)
+(Netscape6)/(\d+)\.(\d+)\.?([ab]?\d+|)
+(NewRelicPinger)/(\d+)\.(\d+)
+(Nextcloud)
+(Nintendo 3DS)
+(Nokia)[EN]?(\d+)
+(NokiaBrowser)/(\d+)\.(\d+)
+(NokiaBrowser)/(\d+)\.(\d+).(\d+)
+(NokiaBrowser)/(\d+)\.(\d+).(\d+)\.(\d+)
+(OC)/(\d+)\.(\d+)\.(\d+)\.(\d+) \(Skype for Business\)
+(OLPC)/Update()\.(\d+)
+(OLPC)/Update(\d+)\.(\d+)
+(OPiOS)/(\d+).(\d+).(\d+)
+(Obigo)InternetBrowser
+(Obigo)\-Browser
+(Obigo|OBIGO)[^\d]*(\d+)(?:.(\d+)|)
+(OculusBrowser)/(\d+)\.(\d+).0.0(?:\.([0-9\-]+)|)
+(OmniWeb)/v(\d+)\.(\d+)
+(OneBrowser)/(\d+).(\d+)
+(OpenVAS)(?:-VT)?(?:[ \/](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)
+(Opera Mini)(?:/att|)/?(\d+|)(?:\.(\d+)|)(?:\.(\d+)|)
+(Opera Tablet).{0,200}Version/(\d+)\.(\d+)(?:\.(\d+)|)
+(Opera)/(\d+)\.(\d+).{1,100}Opera Mobi
+(Opera)/.{1,100}Opera Mobi.{1,100}Version/(\d+)\.(\d+)
+(Opera)/9.80.{0,200}Version/(\d+)\.(\d+)(?:\.(\d+)|)
+(OperationsDashboard)-(?:Windows)-(\d+)\.(\d+)\.(\d+)
+(Outlook-iOS)/\d+\.\d+\.prod\.iphone \((\d+)\.(\d+)\.(\d+)\)
+(POLARIS)/(\d+)\.(\d+)
+(PRTG Network Monitor)
+(PaleMoon)/(\d+)\.(\d+)(?:\.(\d+)|)
+(Phantom)/V(\d+)\.(\d+)
+(PhantomJS)/(\d+)\.(\d+)\.(\d+)
+(PingdomPageSpeed)/(\d+)\.(\d+)
+(PingdomTMS)/(\d+)\.(\d+)\.(\d+)
+(Pingdom\.com_bot_version_)(\d+)\.(\d+)
+(Pinterest(?:bot|))/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)[;\s(]+\+https://www.pinterest.com/bot.html
+(Pinterest)(?: for Android(?: Tablet|)|)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+(PlayBook).{1,200}RIM Tablet OS (\d+)\.(\d+)\.(\d+)
+(PlayStation (?:Portable|Vita|\d+))
+(PlayStation Portable)
+(PlayStation Vita)
+(Play[Bb]ook)
+(Player FM)$
+(Player FM|Pocket Casts|DoggCatcher|Spotify|MediaMonkey|MediaGo|BashPodder)
+(Pocket Casts)$
+(PodCruncher|Downcast)[ /]?(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|)
+(Podkicker) \S+/(\d+)\.(\d+)\.(\d+)
+(Postbox)/(\d+)\.(\d+)\.(\d+)
+(Pre)/(\d+)\.(\d+)
+(Pre|Pixi)/\d+\.\d+
+(Puffin)/(\d+)\.(\d+)(?:\.(\d+)|)
+(PyAMF)/(\d+)\.(\d+)\.(\d+)
+(Python/3\.\d{1,3} aiohttp)/(\d+)\.(\d+)\.(\d+)
+(QGIS)\/(\d)\.?0?(\d{1,2})\.?0?(\d{1,2})
+(QQBrowser)(?:/(\d+)(?:\.(\d+)\.(\d+)(?:\.(\d+)|)|)|)
+(QtCarBrowser)
+(QtWeb) Internet Browser/(\d+)\.(\d+)
+(QuickTime)\.(\d+)\.(\d+)\.(\d+)
+(RCM CardDAV plugin)/(\d+)\.(\d+)\.(\d+(?:-dev|))
+(RIM Tablet OS) (\d+)\.(\d+)\.(\d+)
+(RSS_Radio) (\d+)\.(\d+)
+(Rackspace Monitoring)/(\d+)\.(\d+)
+(Replay) AV
+(RockMelt)/(\d+)\.(\d+)\.(\d+)
+(S3Gof3r)
+(S40OviBrowser)/(\d+)\.(\d+)\.(\d+)\.(\d+)
+(SE 2\.X) MetaSr (\d+)\.(\d+)
+(SEMC\-Browser)/(\d+)\.(\d+)
+(SLP Browser)/(\d+)\.(\d+)
+(SMART-TV); .{0,200} Tizen 
+(Safari)/\d+
+(SailfishBrowser)/(\d+)\.(\d+)(?:\.(\d+)|)
+(Salesforce)(?:.)\/(\d+)\.(\d?)
+(Samsung)(SGH)(i[0-9]+)
+(SamsungBrowser)/(\d+)\.(\d+)
+(Series60)/(\d+)\.(\d+)
+(Series60)/5\.0
+(Silk)/(\d+)\.(\d+)(?:\.([0-9\-]+)|)
+(Silk-Accelerated=[a-z]{4,5})
+(Slack_SSB)/(\d+)\.(\d+)\.(\d+)
+(Snapchat)\/(\d+)\.(\d+)\.(\d+)\.(\d+)
+(Snowshoe)/(\d+)\.(\d+).(\d+)
+(Sony)(?:BDP\/|\/|)([^ /;\)]+)[ /;\)]
+(Symbian/3)
+(Symbian/3).{1,200}NokiaBrowser/7\.3
+(Symbian/3).{1,200}NokiaBrowser/7\.4
+(Symbian[Oo][Ss])[/ ](\d+)\.(\d+)
+(Symbian|\bS60(Version|V\d)|\bS60\b|\((Series 60|Windows Mobile|Palm OS|Bada); Opera Mini|Windows CE|Opera Mobi|BREW|Brew|Mobile; .{1,200}Firefox/|iPhone OS|Android|MobileSafari|Windows {0,2}Phone|\(webOS/|PalmOS)
+(Symphony) (\d+).(\d+)
+(SznProhlizec)/(\d+)\.(\d+)(?:\.(\d+)|)
+(TOUCH(?:TAB|PAD).{1,200}?)(?: Build|\) AppleWebKit)
+(Tableau)/(\d+)\.(\d+)
+(Teleca)
+(Tenta/)(\d+)\.(\d+)\.(\d+)
+(Thunderbird)/(\d+)\.(\d+)(?:\.(\d+(?:pre|))|)
+(Tizen)[/ ](\d+)\.(\d+)
+(TopBuzz) com.alex.NewsMaster/(\d+).(\d+).(\d+)
+(TopBuzz) com.mobilesrepublic.newsrepublic/(\d+).(\d+).(\d+)
+(TopBuzz) com.topbuzz.videoen/(\d+).(\d+).(\d+)
+(TopBuzz)/(\d+).(\d+).(\d+)
+(TopPodcasts)Pro/(\d+) CFNetwork
+(Touch[Pp]ad)/\d+\.\d+
+(Transmit)/(\d+)\.(\d+)\.(\d+)
+(Trident)/(4)\.(0)
+(Trident)/(5)\.(0)
+(Trident)/(6)\.(0)
+(Trident)/(7|8)\.(0)
+(Twitter for (?:iPhone|iPad)|TwitterAndroid)(?:\/(\d+)\.(\d+)|)
+(Twitterbot)/(\d+)\.(\d+)
+(Tygron Platform) \((\d+)\.(\d+)\.(\d+(?:\.\d+| RC \d+\.\d+))
+(UC? ?Browser|UCWEB|U3)[ /]?(\d+)\.(\d+)\.(\d+)
+(Ubuntu|Kubuntu|Arch Linux|CentOS|Slackware|Gentoo|openSUSE|SUSE|Red Hat|Fedora|PCLinuxOS|Mageia|SerenityOS|(?:Free|Open|Net|\b)BSD)
+(VERTU) ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+(VOX) Music Player
+(VRE);
+(Version)/(\d+)\.(\d+)(?:\.(\d+)|).{0,100}Safari/
+(Vivaldi)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+(Vodafone) (.{0,200}?)(?: Build|\) AppleWebKit)
+(WMPlayer)/(\d+)\.(\d+)\.(\d+)\.(\d+)
+(Watch)(\d+),(\d+)
+(Watch)(\d+,\d+)
+(WeTab)-Browser
+(Web0S); Linux/(SmartTV)
+(WebTV)/(\d+).(\d+)
+(WebTV)/\d+.\d+
+(Whale)/(\d+)\.(\d+)\.(\d+)
+(Whale)/(\d+)\.(\d+)\.(\d+)\.(\d+) Mobile(?:[ /]|$)
+(Win 9x 4\.90)
+(Win(?:dows NT |32NT\/)6\.0)
+(Win(?:dows NT |32NT\/)6\.1)
+(Win(?:dows NT |32NT\/)6\.2)
+(Win(?:dows NT |32NT\/)6\.3)
+(Win(?:dows NT |32NT\/)6\.4)
+(WinNT4.0)
+(Windows (?:NT 5\.2|NT 5\.1))
+(Windows 10)
+(Windows ?CE)
+(Windows ?Mobile)
+(Windows NT 10\.0)
+(Windows NT 5\.0)
+(Windows NT 6\.2; ARM;)
+(Windows NT 6\.3; ARM;)
+(Windows Phone) (?:OS[ /])?(\d+)\.(\d+)
+(Windows|Android|WeTab|Maemo|Web0S)
+(XBLWP7)
+(YaBrowser)/(\d+)\.(\d+)\.(\d+)
+(YaSearchBrowser)/(\d+)\.(\d+)\.(\d+)
+(ZDM)/(\d+)\.(\d+)[; ]?
+(Zune|BeyondPod) (\d+)(?:\.(\d+)|)[\);]
+([Dd]ebian)
+([MS]?IE) (\d+)\.(\d+)
+(\(StatusCake\))
+(amarok)/(\d+)\.(\d+|)\.?(\d+|)
+(android)\s(?:mobile\/)(\d+)(?:\.(\d+)(?:\.(\d+)|)|)
+(arcgis-explorer)/(\d+)\.(\d+)\.(\d+)
+(arcgis-workforce)/(\d+)\.(\d+)\.(\d+)
+(arcgisearth)/(\d+)\.(\d+)(?:\.(\d+)|)
+(audioboom\.com)
+(baidubrowser)[/\s](\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+(bingbot|Bolt|AdobeAIR|Jasmine|IceCat|Skyfire|Midori|Maxthon|Lynx|Arora|IBrowse|Dillo|Camino|Shiira|Fennec|Phoenix|Flock|Netscape|Lunascape|Epiphany|WebPilot|Opera Mini|Opera|NetFront|Netfront|Konqueror|Googlebot|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|iCab|iTunes|MacAppStore|NetNewsWire|Space Bison|Stainless|Orca|Dolfin|BOLT|Minimo|Tizen Browser|Polaris|Abrowser|Planetweb|ICE Browser|mDolphin|qutebrowser|Otter|QupZilla|MailBar|kmail2|YahooMobileMail|ExchangeWebServices|ExchangeServicesClient|Dragon|Outlook-iOS-Android)/(\d+)\.(\d+)(?:\.(\d+)|)
+(chromeframe)/(\d+)\.(\d+)\.(\d+)
+(coc_coc_browser)/(\d+)\.(\d+)(?:\.(\d+)|)
+(conkeror|Conkeror)/(\d+)\.(\d+)(?:\.(\d+)|)
+(espn\.go)
+(espnradio\.com)
+(facebookexternalhit)/(\d+)\.(\d+)
+(hiptop|avantgo|plucker|xiino|blazer|elaine)
+(hpw|web)OS/(\d+)\.(\d+)(?:\.(\d+)|)
+(iCab|Lunascape|Opera|Android|Jasmine|Polaris|Microsoft SkyDriveSync|The Bat!) (\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+(iPad)(?:;| Simulator;)
+(iPhone)(?:;| Simulator;)
+(iPhone|iPad|iPod)(\d+,\d+)
+(iPhone|iPad|iPod).{0,100}Mac OS X.{0,100}Version/(\d+)\.(\d+)
+(iPhone|iPad|iPod); Opera
+(iPod)(?:;| touch;| Simulator;)
+(iPod|iPhone|iPad)
+(iPod|iPhone|iPad).{1,200}GSA/(\d+)\.(\d+)\.(\d+)(?:\.(\d+)|) Mobile
+(iPod|iPhone|iPad).{1,200}Version/(\d+)\.(\d+)(?:\.(\d+)|)
+(iPod|iPhone|iPad).{1,200}Version/(\d+)\.(\d+)(?:\.(\d+)|).{1,200}[ +]Safari
+(iPod|iPod touch|iPhone|iPad)
+(iPod|iPod touch|iPhone|iPad).{0,200} Safari
+(iPod|iPod touch|iPhone|iPad);.{0,30}CPU.{0,30}OS[ +](\d+)_(\d+)(?:_(\d+)|).{0,30} AppleNews\/\d+\.\d+(?:\.\d+|)
+(iRider|Crazy Browser|SkipStone|iCab|Lunascape|Sleipnir|Maemo Browser) (\d+)\.(\d+)\.(\d+)
+(konqueror)/(\d+)\.(\d+)\.(\d+)
+(luakit)
+(minio-go)/v(\d+)\.(\d+)\.(\d+)
+(mirall)/(\d+)\.(\d+)\.(\d+)
+(ownCloud-android)/(\d+)\.(\d+)\.(\d+)
+(philpodder)/(\d+)\.(\d+)\.?([^.\s]+|)\.?([^.\s]+|)
+(podracer|jPodder) v ?(\d+)\.(\d+)(?:\.(\d+)|)
+(python-requests)/(\d+)\.(\d+)
+(rekonq)/(\d+)\.(\d+)(?:\.(\d+)|) Safari
+(sprd)\-([^/]{1,50})/
+(tvOS)[/ ](\d+)\.(\d+)(?:\.(\d+)|)
+(vlc)/(\d+)\.(\d+)\.(\d+)
+(wap[\-\ ]browser|maui|netfront|obigo|teleca|up\.browser|midp|Opera Mini)
+(watchOS)[/ ](\d+)\.(\d+)(?:\.(\d+)|)
+(x86_64|aarch64)\ (\d+)\.(\d+)\.(\d+).{0,100}Chrome.{0,100}(?:CitrixChromeApp)$
+/((?:Ant-|)Nutch|[A-z]+[Bb]ot|[A-z]+[Ss]pider|Axtaris|fetchurl|Isara|ShopSalad|Tailsweep)[ \-](\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+; (@TAB-[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; (Avea inTouch 2|soft stone|tmn smart a7|Movistar[ _]Link)(?: Build|\) AppleWebKit)
+; (BASE) (lutea|Lutea 2|Tab[^;]{0,200}?)(?: Build|\) AppleWebKit)
+; (ONE [a-zA-Z]\d+)(?: Build|\) AppleWebKit)
+; (ONEPLUS [a-zA-Z]\d+)(?: Build|\) AppleWebKit)
+; (OnePlus[ a-zA-z0-9]{0,50})((?: Build|\) AppleWebKit))
+; (OnePlus[ a-zA-z0-9]{0,50});((?: Build|.{0,50}\) AppleWebKit))
+; (RCT\w+)(?: Build|\) AppleWebKit)
+; (SAMSUNG-)([A-Za-z0-9\-]{0,50}).{0,200} Build/
+; (moto[ a-zA-z0-9()]{0,50});((?: Build|.{0,50}\) AppleWebKit))
+; ?(Cloud[ _]Z5|z1000|Z99 2G|z99|z930|z999|z990|z909|Z919|z900)(?: Build|\) AppleWebKit)
+; ?(KFAPWA) Build\b
+; ?(KFAPWI) Build\b
+; ?(KFJWA) Build\b
+; ?(KFJWI) Build\b
+; ?(KFOTE|Amazon Kindle Fire2) Build\b
+; ?(KFOT|Kindle Fire) Build\b
+; ?(KFSOWI) Build\b
+; ?(KFTHWA) Build\b
+; ?(KFTHWI) Build\b
+; ?(KFTT) Build\b
+; ?(Kindle) Build\b
+; ?(NEC-)(.{0,200}?)(?: Build|\) AppleWebKit)
+; ?(Silk)/(\d+)\.(\d+)(?:\.([0-9\-]+)|) Build\b
+; ?Amazon ([^;/]{1,100}) Build\b
+; ARM; Trident/6\.0; Touch[\);]
+; Apollo Lite Build/
+; Build/(Nook)
+; HTC(X06HT) Build
+; Lenco ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; PHICOMM ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; PHICOMM (i800)(?: Build|\) AppleWebKit)
+; RCA (\w+)(?: Build|\) AppleWebKit)
+; Sony (Tablet[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; Sony ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; Thor (E)? Build/
+; thor Build/
+; wv\).{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)
+; {0,2}((?:ADR8995|ADR910L|ADR930L|ADR930VW|PTL21|P8000)(?: 4G|)) Build/
+; {0,2}((?:Aquila|Clanga|Rapax)[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}((?:B-Tab|B-TAB) ?\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}((?:BLU|Blu)[ _\-])([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}((?:CIUS|cius)[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}((?:CSL_Spice|Spice|SPICE|CSL)[ _\-]?|)([Mm][Ii])([ _\-]|)(\d{3}[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}((?:EV|KM)-S\d+[A-Z]?)(?: Build|\) AppleWebKit)
+; {0,2}((?:FINE|Fine)\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}((?:FONE|QUANTUM|INSIGNIA) \d+[^;/]{0,100}|PLAYTAB)(?: Build|\) AppleWebKit)
+; {0,2}((?:HUAWEI[ _]?|Huawei[ _]|)Ascend[ _])([^;/]{1,100}) Build
+; {0,2}((?:HUAWEI|Huawei)[ \-]?)(MediaPad) Build
+; {0,2}((?:HUAWEI|Huawei)[ _\-]?)((?:G700-|MT-)[^;/]{1,100}) Build
+; {0,2}((?:HUAWEI|Huawei)[ _\-]?)([^;/]{1,100}) Build
+; {0,2}((?:MP[DQ]C|MPG\d{1,4}|MP\d{3,4}|MID(?:(?:10[234]|114|43|7[247]|8[24]|7)C|8[01]1))[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}((?:SC)\-[A-Za-z0-9 ]{1,50})(/?[^ ]*|)\)
+; {0,2}((?:SCH|SGH|SHV|SHW|SPH|SC|SM)\-[A-Za-z0-9 ]{1,50})(/?[^ ]*|) Build
+; {0,2}((?:SCH|SGH|SHV|SHW|SPH|SC|SM)\-[A-Za-z0-9]{5,6})[\)]
+; {0,2}((?:SK|ST|E|X|LT|MK|MT|WT)\d{2}[a-z0-9]*(?:-o|)|R800i|U20i) Build
+; {0,2}((?:SMB|smb)[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}((?:TAB-PLAYTAB|TAB-PROTAB|PROTAB|PlayTabPro|Mobii[ _\-]|TAB-P)[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}((?:ViewPad|ViewPhone|VSD)[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}((?:[A-Z]{3})\-L[A-Za0-9]{2})[\)]
+; {0,2}((MIX) ([^;/]*)) (Build|MIUI)/
+; {0,2}((Mi|MI|HM|MI-ONE|Redmi)[ -](NOTE |Note |)[^;/\)]*)
+; {0,2}((Mi|MI|HM|MI-ONE|Redmi)[ -](NOTE |Note |)[^;/]*) (Build|MIUI)/
+; {0,2}(001DL)(?: Build|\) AppleWebKit)
+; {0,2}(001HT|X06HT) Build
+; {0,2}(003P|101P|101P11C|102P) Build
+; {0,2}(00\dZ) Build/
+; {0,2}(101DL|GS01|Streak Pro[^;/]{0,100})(?: Build|\) AppleWebKit)
+; {0,2}(201M) Build
+; {0,2}(3GC101|3GW10[01]|A390) Build/
+; {0,2}(?:(?:HTC|htc)(?:_blocked|)[ _/])+([^ _/;]+)(?: {0,2}Build|[;\)]| - )
+; {0,2}(?:(?:HTC|htc)(?:_blocked|)[ _/])+([^ _/]+)(?:[ _/]([^ _/;\)]+)|)(?: {0,2}Build|[;\)]| - )
+; {0,2}(?:(?:HTC|htc)(?:_blocked|)[ _/])+([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ _/;\)]+)|)|)(?: {0,2}Build|[;\)]| - )
+; {0,2}(?:(?:HTC|htc)(?:_blocked|)[ _/])+([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ /;]+)|)|)|)(?: {0,2}Build|[;\)]| - )
+; {0,2}(?:(?:ZOPO|Zopo)[ _]([^;/]{1,100}?)|(ZP ?(?:\d{2}[^;/]{1,100}|C2))|(C[2379]))(?: Build|\) AppleWebKit)
+; {0,2}(?:(Aspire A1)|(?:LEMON|Lemon)[ _]([^;/]{1,100}))_?(?: Build|\) AppleWebKit)
+; {0,2}(?:3Q_)([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:AMAZE[ _](S\d+)|(S\d+)[ _]AMAZE)(?: Build|\) AppleWebKit)
+; {0,2}(?:AMOI|Amoi)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:ARCHOS|Archos) ?(GAMEPAD.{0,200}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:ARNOVA|Arnova) ?([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:ASSISTANT |)(AP)-?([1789]\d{2}[A-Z]{0,2}|80104)(?: Build|\) AppleWebKit)
+; {0,2}(?:Axioo[ _\-]([^;/]{1,100}?)|(picopad)[ _\-]([^;/]{1,100}?))(?: Build|\) AppleWebKit)
+; {0,2}(?:BMOBILE )?(Blu|BLU|DASH [^;/]{1,100}|VIVO 4\.3|TANK 4\.5)(?: Build|\) AppleWebKit)
+; {0,2}(?:Blade|BLADE|ZTE-BLADE)([^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}(?:CFW-|Kyros )?(MID[0-9]{4}(?:[ABC]|SR|TV)?)(\(3G\)-4G| GB 8K| 3G| 8K| GB)? {0,2}(?:Build|[;\)])
+; {0,2}(?:CJ[ -])?(ThL|THL)[ -]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Cat)(Nova.{0,200}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Cat|CAT) ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Dell|DELL) (Streak)(?: Build|\) AppleWebKit)
+; {0,2}(?:Dell|DELL)[ _](Aero|Venue|Thunder|Mini.{0,200}?|Streak[ _]Pro)(?: Build|\) AppleWebKit)
+; {0,2}(?:HTC[ _/])+([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ _/]+)|)|)|)(?:[/\\]1\.0 | V|/| +)\d+\.\d[\d\.]*(?: {0,2}Build|\))
+; {0,2}(?:HTC[ _/])+([^ _/]+)(?:[ _/]([^ _/]+)(?:[ _/]([^ _/]+)|)|)(?:[/\\]1\.0 | V|/| +)\d+\.\d[\d\.]*(?: {0,2}Build|\))
+; {0,2}(?:HTC[ _/])+([^ _/]+)(?:[ _/]([^ _/]+)|)(?:[/\\]1\.0 | V|/| +)\d+\.\d[\d\.]*(?: {0,2}Build|\))
+; {0,2}(?:HTC[ _/])+([^ _/]+)(?:[/\\]1\.0 | V|/| +)\d+\.\d[\d\.]*(?: {0,2}Build|\))
+; {0,2}(?:INTEX|Intex)(?:[_ ]([^\ _;/]+))(?:[_ ]([^\ _;/]+)|) {0,2}(?:Build|;)
+; {0,2}(?:Ideapad |)K1 Build/
+; {0,2}(?:Ideos |IDEOS )(S7) Build
+; {0,2}(?:Ideos |IDEOS )([^;/]{1,50}\s{0,5}|\s{0,5})Build
+; {0,2}(?:Intex[ _]|)(AQUA|Aqua)([ _\.\-])([^;/]{1,100}?) {0,2}(?:Build|;)
+; {0,2}(?:LAVA[ _]|)IRIS[ _\-]?([^/;\)]+) {0,2}(?:;|\)|Build)
+; {0,2}(?:LNV-|)(?:=?[Ll]enovo[ _\-]?|LENOVO[ _])(.{1,200}?)(?:Build|[;/\)])
+; {0,2}(?:MD_|)LIFETAB[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:MSI[ _]|)(Primo\d+|Enjoy[ _\-][^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Malata|MALATA) ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Micromax[ _](A111|A240)|(A111|A240)) Build
+; {0,2}(?:Odys\-|ODYS\-|ODYS )([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Philips|PHILIPS)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Polaroid )(Tablet)(?: Build|\) AppleWebKit)
+; {0,2}(?:Polaroid[ _]|)((?:MIDC\d{3,}|PMID\d{2,}|PTAB\d{3,})[^;/]{0,30}?)(\/[^;/]{0,30}|)(?: Build|\) AppleWebKit)
+; {0,2}(?:Positivo |)((?:YPY|Ypy)[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Prestigio |)((?:PAP|PMP)\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:SKYTEX|SX)-([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Skate|SKATE|ZTE-SKATE)([^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}(?:Touchlet )?(X10\.[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:WIKO[ \-]|)(CINK\+?|BARRY|BLOOM|DARKFULL|DARKMOON|DARKNIGHT|DARKSIDE|FIZZ|HIGHWAY|IGGY|OZZY|RAINBOW|STAIRWAY|SUBLIM|WAX|CINK [^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Walton[ _\-]|)(Primo[ _\-][^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Woxter|Wxt) ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:Xenta |Luna |)(TAB[234][0-9]{2}|TAB0[78]-\d{3}|TAB0?9-\d{3}|TAB1[03]-\d{3}|SMP\d{2}-\d{3})(?: Build|\) AppleWebKit)
+; {0,2}(?:ZXY-ZTE_|ZTE\-U |ZTE[\- _]|ZTE-C[_ ])([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:[Cc]elkon[ _\*]|CELKON[ _\*])([^;/\)]+) ?(?:Build|;|\))
+; {0,2}(?:alcatel[ _]|)(?:(?:one[ _]?touch[ _])|ot[ \-])([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(?:iBall[ _\-]|)(Andi)[ _]?(\d[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}(?:meizu_|MEIZU )(.{1,200}?) {0,2}(?:Build|[;\)])
+; {0,2}(A10 [Bb]asic2?)(?: Build|\) AppleWebKit)
+; {0,2}(A11|A39|A37|A34|ST8|ST10|ST7|Smart Tab3|Smart Tab2|Titanium S\d) +Build
+; {0,2}(A13-MID)(?: Build|\) AppleWebKit)
+; {0,2}(A1601)(?: Build|\) AppleWebKit)
+; {0,2}(A19|A19Q|A105|A107[^;/\)]*) ?(?:Build|;|\))
+; {0,2}(A1_07|A2107A-H|S2005A-H|S1-37AH0) Build
+; {0,2}(A28|A32|A43|A70(?:BHT|CHT|HB|S|X)|A101(?:B|C|IT)|A7EB|A7EB-WK|101G9|80G9)(?: Build|\) AppleWebKit)
+; {0,2}(A2|A5|A8|A900)_?(Classic|)(?: Build|\) AppleWebKit)
+; {0,2}(A502\+?|A936|A603|X1|X2)(?: Build|\) AppleWebKit)
+; {0,2}(A555|A85[34][^;/]*|A95[356]|ME[58]\d{2}\+?|ME600|ME632|ME722|MB\d{3}\+?|MT680|MT710|MT870|MT887|MT917|WX435|WX453|WX44[25]|XT\d{3,4}[A-Z\+]*|CL[iI]Q|CL[iI]Q XT) Build
+; {0,2}(A6277|ADR6200|ADR6300|ADR6350|ADR6400[A-Z]*|ADR6425[A-Z]*|APX515CKT|ARIA|Desire[^_ ]*|Dream|EndeavorU|Eris|Evo|Flyer|HD2|Hero|HERO200|Hero CDMA|HTL21|Incredible|Inspire[A-Z0-9]*|Legend|Liberty|Nexus ?(?:One|HD2)|One|One S C2|One[ _]?(?:S|V|X\+?)\w*|PC36100|PG06100|PG86100|S31HT|Sensation|Wildfire)(?: Build|[/;\(\)])
+; {0,2}(A651|A701B?|A702|A703|A705|A706|A707|A711|A712|A713|A717|A722|A785|A801|A802|A803|A901|A902|A1002|A1003|A1006|A1007|A9701|A9703|Q710|Q80)(?: Build|\) AppleWebKit)
+; {0,2}(ADR6200|ADR6400L|ADR6425LVW|Amaze|DesireS?|EndeavorU|Eris|EVO|Evo\d[A-Z]+|HD2|IncredibleS?|Inspire[A-Z0-9]*|Inspire[A-Z0-9]*|Sensation[A-Z0-9]*|Wildfire)[ _-](.{1,200}?)(?:[/;\)]|Build|MIUI|1\.0)
+; {0,2}(AEON|BRAVIO|FUSION|FUSION2IN1|Genio|EOS10|IEOS[^;/]*|IRON|Loox|LOOX|LOOX Plus|Motion|NOON|NOON_PRO|NEXT|OPOS|PEDI[^;/]*|PRIME[^;/]*|STUDYTAB|TABLO|Tablet-PC-4|UNO_X8|XELIO[^;/]*|Xelio ?\d+ ?[Pp]ro|XENO10|XPRESS PRO)(?: Build|\) AppleWebKit)
+; {0,2}(ALLVIEW[ _]?|Allview[ _]?)((?:Speed|SPEED).{0,200}?)(?: Build|\) AppleWebKit)
+; {0,2}(ALLVIEW[ _]?|Allview[ _]?)([^;/]*?)(?: Build|\) AppleWebKit)
+; {0,2}(ALLVIEW[ _]?|Allview[ _]?|)(AX1_Shine|AX2_Frenzy)(?: Build|\) AppleWebKit)
+; {0,2}(AN(?:7|8|9|10|13)[A-Z0-9]{1,4})(?: Build|\) AppleWebKit)
+; {0,2}(AN\d[^;/]{1,100}|ARCHM\d+)(?: Build|\) AppleWebKit)
+; {0,2}(ARIZONA|(?:ATLAS|Atlas) W|D930|Grand (?:[SX][^;]{0,200}?|Era|Memo[^;]{0,200}?)|JOE|(?:Kis|KIS)\b[^;]{0,200}?|Libra|Light [^;]{0,200}?|N8[056][01]|N850L|N8000|N9[15]\d{2}|N9810|NX501|Optik|(?:Vip )Racer[^;]{0,200}?|RacerII|RACERII|San Francisco[^;]{0,200}?|V9[AC]|V55|V881|Z[679][0-9]{2}[A-z]?)(?: Build|\) AppleWebKit)
+; {0,2}(AT-AS[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(AT[0-9]{2,3}(?:\-A|LE\-A|PE\-A|SE|a|)|AT7-A|AT1S0|Hikari-iFrame/WDPF-[^;/]{1,100}|THRiVE|Thrive)(?: Build|\) AppleWebKit)
+; {0,2}(AX5\d+)(?: Build|\) AppleWebKit)
+; {0,2}(A\d+)[ _](Duo|)(?: Build|\) AppleWebKit)
+; {0,2}(A\d{2}|A[12]\d{2}|A90S|A110Q) Build
+; {0,2}(Acer |ACER )([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Advent |)(Vega(?:Bean|Comb|)).{0,200}?(?: Build|\) AppleWebKit)
+; {0,2}(Ainol |)((?:NOVO|[Nn]ovo)[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(AirTab)[ _\-]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Allwinner)[ _\-]?([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(BB) ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(BOBBY)(?: Build|\) AppleWebKit)
+; {0,2}(Behold ?(?:2|II)|YP\-G[^;/]{1,100}|EK-GC100|SCL21|I9300) Build
+; {0,2}(BioniQ) ?([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(BlackBird)[ _](.{0,200}?)(?: Build|\) AppleWebKit)
+; {0,2}(BlackBird)[ _](I8.{0,200}?)(?: Build|\) AppleWebKit)
+; {0,2}(Broncho) ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(C(?:1[0-9]|2[0-9]|53|55|6[0-9])[0-9]{2}|D[25]\d{3}|D6[56]\d{2})(?: Build|\) AppleWebKit)
+; {0,2}(C771|CAL21|IS11CA)(?: Build|\) AppleWebKit)
+; {0,2}(CPH\d{1,4}|RMX\d{1,4}|P[A-Z]{3}\d{2})(?: Build|\) AppleWebKit)
+; {0,2}(CROSS|Cross)[ _\-]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(CT)-?(\d+)(?: Build|\) AppleWebKit)
+; {0,2}(CUBE[ _])?([KU][0-9]+ ?GT.{0,200}?|A5300)(?: Build|\) AppleWebKit)
+; {0,2}(Cloudfone)[ _](Excite)([^ ][^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Cloudfone|CloudPad)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Cynus)[ _](F5|T\d|.{1,200}?) {0,2}(?:Build|[;/\)])
+; {0,2}(D633|D822|D833|T539|T939|V726|W335|W336|W337|W3568|W536|W5510|W626|W632|W6350|W6360|W6500|W732|W736|W737|W7376|W820|W832|W8355|W8500|W8510|W930)(?: Build|\) AppleWebKit)
+; {0,2}(DE88Plus|MD70)(?: Build|\) AppleWebKit)
+; {0,2}(DOOV)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Droid[^;/]*|DROID[^;/]*|Milestone[^;/]*|Photon|Triumph|Devour|Titanium) Build
+; {0,2}(Dslide [^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(E3) Build/JOP40D
+; {0,2}(EG\d{2,}|HS-[^;/]{1,100}|MIRA[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(E[34][0-9]{2}|LS[6-8][0-9]{2}|VS[6-9][0-9]+[^;/]{1,30}|Nexus 4|Nexus 5X?|GT540f?|Optimus (?:2X|G|4X HD)|OptimusX4HD) {0,2}(?:Build|;)
+; {0,2}(Enot|ENOT)[ -]?([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Excite|ICE)[ _](\d+[^;/]{0,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(FWS\d{3}[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(FZ-A1B|JT-B1)(?: Build|\) AppleWebKit)
+; {0,2}(F\-\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Find ?(?:5|7a)|R8[012]\d{1,2}|T703\d?|U70\d{1,2}T?|X90\d{1,2}|[AFR]\d{1,2}[a-z]{1,2})(?: Build|\) AppleWebKit)
+; {0,2}(Fly|FLY)[ _](IQ[^;]{1,100}?|F[34]\d+[^;]{0,100}?);?(?: Build|\) AppleWebKit)
+; {0,2}(G1)(?: Build|\) AppleWebKit)
+; {0,2}(G100W?)(?: Build|\) AppleWebKit)
+; {0,2}(G7|M1013|M1015G|M11[CG]?|M-?12[B]?|M15|M19[G]?|M30[ACQ]?|M31[GQ]|M32|M33[GQ]|M36|M37|M38|M701T|M710|M712B|M713|M715G|M716G|M71(?:G|GS|T|)|M72[T]?|M73[T]?|M75[GT]?|M77G|M79T|M7L|M7LN|M81|M810|M81T|M82|M92|M92KS|M92S|M717G|M721|M722G|M723|M725G|M739|M785|M791|M92SK|M93D)(?: Build|\) AppleWebKit)
+; {0,2}(GN\d+[A-Z]?|INFINITY_PASSION|Ctrl_V1)(?: Build|\) AppleWebKit)
+; {0,2}(GSmart)[ -]([^/]{1,50})(?: Build|\) AppleWebKit)
+; {0,2}(GTablet.{0,200}?)(?: Build|\) AppleWebKit)
+; {0,2}(G[^F]?FIVE) ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Galaxy(?: Ace| Nexus| S ?II+|Nexus S| with MCR 1.2| Mini Plus 4G|)) Build/
+; {0,2}(Garminfone)(?: Build|\) AppleWebKit)
+; {0,2}(Geeksphone) ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(GenxDroid7|MSD7.{0,200}?|AX\d.{0,200}?|Tab 701|Tab 722)(?: Build|\) AppleWebKit)
+; {0,2}(Gionee)[ _\-]([^;/]{1,100}?)(?:/[^;/]{1,100}|)(?: Build|\) AppleWebKit)
+; {0,2}(Glass \d+)(?: Build|\) AppleWebKit)
+; {0,2}(Google |)(Nexus [Ss](?: 4G|)) Build/
+; {0,2}(HD1903|GM1917|IN2025|LE2115|LE2127|HD1907|BE2012|BE2025|BE2026|BE2028|BE2029|DE2117|DE2118|EB2101|GM1900|GM1910|GM1915|HD1905|HD1925|IN2015|IN2017|IN2019|KB2005|KB2007|LE2117|LE2125|BE2015|GM1903|HD1900|HD1901|HD1910|HD1913|IN2010|IN2013|IN2020|LE2111|LE2120|LE2121|LE2123|BE2011|IN2023|KB2003|LE2113|NE2215|DN2101)(?: Build|\) AppleWebKit)
+; {0,2}(HT-03A)(?: Build|\) AppleWebKit)
+; {0,2}(HT\-\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(HUAWEI |Huawei-|)([UY][^;/]{1,100}) Build/(?:Huawei|HUAWEI)([UY][^\);]+)\)
+; {0,2}(HY5001|HY6501|X12|X21|I5)(?: Build|\) AppleWebKit)
+; {0,2}(H\d{2}00\+?) Build
+; {0,2}(I-Buddy)[ _]([^;/]{1,100}?) {0,2}(?:Build|;)
+; {0,2}(IBAK\-[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}(IBall)(?:[ _]([^;/]{1,100}?)|)(?: Build|\) AppleWebKit)
+; {0,2}(IMAGINE [^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(IMO)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(INFOBAR [^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(INM8002KP|ADM8000KP_[AB])(?: Build|\) AppleWebKit)
+; {0,2}(IQ.{0,200}?)(?: Build|\) AppleWebKit)
+; {0,2}(IS01|IS03|IS05|IS\d{2}SH)(?: Build|\) AppleWebKit)
+; {0,2}(IS04)(?: Build|\) AppleWebKit)
+; {0,2}(IS06|IS\d{2}PT)(?: Build|\) AppleWebKit)
+; {0,2}(IS11CA)(?: Build|\) AppleWebKit)
+; {0,2}(IS11LG)(?: Build|\) AppleWebKit)
+; {0,2}(IS11N)(?: Build|\) AppleWebKit)
+; {0,2}(IS11PT)(?: Build|\) AppleWebKit)
+; {0,2}(IS11S)(?: Build|\) AppleWebKit)
+; {0,2}(IS12F)(?: Build|\) AppleWebKit)
+; {0,2}(IS12M)(?: Build|\) AppleWebKit)
+; {0,2}(IS12S)(?: Build|\) AppleWebKit)
+; {0,2}(ISW11F)(?: Build|\) AppleWebKit)
+; {0,2}(ISW11HT)(?: Build|\) AppleWebKit)
+; {0,2}(ISW11K)(?: Build|\) AppleWebKit)
+; {0,2}(ISW11M)(?: Build|\) AppleWebKit)
+; {0,2}(ISW11SC)(?: Build|\) AppleWebKit)
+; {0,2}(ISW12HT)(?: Build|\) AppleWebKit)
+; {0,2}(ISW13HT)(?: Build|\) AppleWebKit)
+; {0,2}(ISW?[0-9]{2}[A-Z]{0,2})(?: Build|\) AppleWebKit)
+; {0,2}(Idea(?:Tab|pad)) ?([^;/]{1,100}) Build
+; {0,2}(Idea[Tp]ab)[ _]([^;/]{1,100});? Build
+; {0,2}(ImPAD) ?(\d+(?:.){0,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Infinix)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Informer)[ \-]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(JC-[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}(JOYPAD|Joypad)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(JXD)[ _\-]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(JY-[^;/]{1,100}|G[234]S?)(?: Build|\) AppleWebKit)
+; {0,2}(K-Touch)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(LG-)([A-Z]{1,2}\d{2,}[^,;/\)\(]*?)(?:Build| V\d+|[,;/\)\(]|$)
+; {0,2}(LG[ \-]|LG)([^;/]{1,100})[;/]? Build
+; {0,2}(LT-NA7)(?: Build|\) AppleWebKit)
+; {0,2}(L\-\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(M-MP[^;/]{1,30}|SmartPad ?\d{2,}[^;/]{1,30}?)(?: Build|\) AppleWebKit)
+; {0,2}(M-PP[^;/]{1,30}|PhonePad ?\d{2,}[^;/]{1,30}?)(?: Build|\) AppleWebKit)
+; {0,2}(M030|M031|M035|M040|M065|m9)(?: Build|\) AppleWebKit)
+; {0,2}(M1052|M806|M9000|M9100|M9701|MID100|MID120|MID125|MID130|MID135|MID140|MID701|MID710|MID713|MID727|MID728|MID731|MID732|MID733|MID735|MID736|MID737|MID760|MID800|MID810|MID820|MID830|MID833|MID835|MID860|MID900|MID930|MID933|MID960|MID980)(?: Build|\) AppleWebKit)
+; {0,2}(M532|Q572|FJL21)(?: Build|\) AppleWebKit)
+; {0,2}(M701|M7|M8|M9)(?: Build|\) AppleWebKit)
+; {0,2}(M702pro)(?: Build|\) AppleWebKit)
+; {0,2}(ME17\d[^;/]*|ME3\d{2}[^;/]{1,100}|K00[A-Z]|Nexus 10|Nexus 7(?: 2013|)|PadFone[^;/]*|Transformer[^;/]*|TF\d{3}[^;/]*|eeepc)(?: Build|\) AppleWebKit)
+; {0,2}(MFC\d+)[A-Z]{2}([^;,/]*),?(?: Build|\) AppleWebKit)
+; {0,2}(MID-?\d{4}C[EM])(?: Build|\) AppleWebKit)
+; {0,2}(MITO)[ _\-]?([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(MIX) (Build|MIUI)/
+; {0,2}(MOB-[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(MODECOM )([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(MODECOM |)(FreeTab) ?([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(MOMO[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(MS[45][0-9]{3}|MID0[568][NS]?|MID[1-9]|MID[78]0[1-9]|MID970[1-9]|MID100[1-9])(?: Build|\) AppleWebKit)
+; {0,2}(MW(?:0[789]|10)[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(MZ\d{3}\+?|MZ\d{3} 4G|Xoom|XOOM[^;/]*) Build
+; {0,2}(Maxwell [^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(MediaPad[^;]{1,200}|SpringBoard) Build/Huawei
+; {0,2}(Milestone )(XT[^;/]*) Build
+; {0,2}(Mini-3iX)(?: Build|\) AppleWebKit)
+; {0,2}(Moto[_ ]?|MOT\-)([^;/]{1,100}) Build
+; {0,2}(Motoroi ?x|Droid X|DROIDX) Build
+; {0,2}(Motorola MOT-|Motorola[ _\-]|MOT\-?)([^;/]{1,100}) Build
+; {0,2}(My)[_]?(Pad)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(My)\|?(Phone)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(N-\d+[CDE])(?: Build|\) AppleWebKit)
+; {0,2}(NABI2?-)([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(NOOK |)(BNRV200|BNRV200A|BNTV250|BNTV250A|BNTV400|BNTV600|LogicPD Zoom2)(?: Build|\) AppleWebKit)
+; {0,2}(NT-\d+[^ ;/]{0,50}|Net[Tt]AB [^;/]{1,50}|Mercury [A-Z]{1,50}|iconBIT)(?: S/N:[^;/]{1,50}|)(?: Build|\) AppleWebKit)
+; {0,2}(NW-Z1000Series)(?: Build|\) AppleWebKit)
+; {0,2}(NXM\d+[A-Za-z0-9_]{0,50}|Next\d[A-Za-z0-9_ \-]{0,50}|NEXT\d[A-Za-z0-9_ \-]{0,50}|Nextbook [A-Za-z0-9_ ]{0,50}|DATAM803HC|M805)(?: Build|[\);])
+; {0,2}(N\-\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Nokia)([ _\-]{0,5})([^;/]{0,50}) Build
+; {0,2}(Nook ?|Barnes & Noble Nook |BN )([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(OP110|OliPad[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(OnePAD[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Orange Daytona|Pulse|Pulse Mini|Vodafone 858|C8500|C8600|C8650|C8660|Nexus 6P|ATH-.{1,200}?) Build[/ ]
+; {0,2}(Orange |Optimus )(Monte Carlo|San Francisco)(?: Build|\) AppleWebKit)
+; {0,2}(Oyster500|Opal 800)(?: Build|\) AppleWebKit)
+; {0,2}(PAD ?[79]\d+[^;/]{0,50}|TelePAD\d+[^;/])(?: Build|\) AppleWebKit)
+; {0,2}(PAD) ?(100[12])(?: Build|\) AppleWebKit)
+; {0,2}(PAD-FMD[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(PAD1016)(?: Build|\) AppleWebKit)
+; {0,2}(PEDI)_(PLUS)_(W)(?: Build|\) AppleWebKit)
+; {0,2}(PLT[0-9]{4}.{0,200}?)(?: Build|\) AppleWebKit)
+; {0,2}(POMP)[ _\-](.{1,200}?) {0,2}(?:Build|[;/\)])
+; {0,2}(P\-\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(P\d{3}|P\d{3}\(Funbook\)) Build
+; {0,2}(Panasonic)[_ ]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(PlayBook)(?: Build|\) AppleWebKit)
+; {0,2}(Q[Mm]obile)_([^_]+)_([^_]+?)(?: Build|\) AppleWebKit)
+; {0,2}(Q\-?[Mm]obile)[ _\-](S[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Q\-?[Mm]obile)[_ ](A[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Q\-Smart)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(RK\d+),?(?: Build|\) AppleWebKit)
+; {0,2}(S7|M860) Build
+; {0,2}(SAMSUNG |Samsung )([^\/]{0,50})\/[^ ]{0,50} Build/
+; {0,2}(SAMSUNG |Samsung |)((?:Galaxy (?:Note II|S\d)|GT-I9082|GT-I9205|GT-N7\d{3}|SM-N9005)[^;/]{0,100})\/?[^;/]{0,50} Build/
+; {0,2}(SAMSUNG-|)(GT\-[BINPS]\d{4}[^\/]{0,50})(\/[^ ]{0,50}) Build
+; {0,2}(SAMSUNG[ _\-]|)(?:SAMSUNG[ _\-])([^;/]{1,100}) Build
+; {0,2}(SBM(?:003SH|005SH|006SH|007SH|102SH)) Build
+; {0,2}(SC\-\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(SELECT) ?(7)(?: Build|\) AppleWebKit)
+; {0,2}(SGP\d{3}|SGPT\d{2})(?: Build|\) AppleWebKit)
+; {0,2}(SHARP[ -])([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(SH\-?\d\d[^;/]{1,100}|SBM\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(SH\-\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(SKY[ _]|)(IM\-[AT]\d{3}[^;/]{1,100}).{0,30} Build/
+; {0,2}(SK\-.{0,200}?)(?: Build|\) AppleWebKit)
+; {0,2}(SN\d+T[^;\)/]*)(?: Build|[;\)])
+; {0,2}(SO\-\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(SPX[_\-]\d[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}(SP[T]?\-\d{2}[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}(ST\d{4}.{0,200})Build/ST
+; {0,2}(ST\d{4}.{0,200}?)(?: Build|\) AppleWebKit)
+; {0,2}(SX7\-PEARL\.GmbH)(?: Build|\) AppleWebKit)
+; {0,2}(SmartQ) ?([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(SmartTab\d+)[^;]{0,50}(?: Build|\) AppleWebKit)
+; {0,2}(Sony ?Ericsson ?)([^;/]{1,100}) Build
+; {0,2}(Sony)([A-Za-z0-9\-]+)(?: Build|\) AppleWebKit)
+; {0,2}(Sprint )(.{1,200}?) {0,2}(?:Build|[;/])
+; {0,2}(T-(?:07|[^0]\d)[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(T-Hub2)(?: Build|\) AppleWebKit)
+; {0,2}(T-Mobile G1) Build
+; {0,2}(T-Mobile myTouch Q) Build
+; {0,2}(T-Mobile myTouch) Build
+; {0,2}(T-Mobile[ _]G2) Build
+; {0,2}(T-Mobile[ _]G2[ _]Touch) Build
+; {0,2}(T-Mobile_Espresso) Build
+; {0,2}(T100|T200|T5|W100|W200|W8s)(?: Build|\) AppleWebKit)
+; {0,2}(TA1013)(?: Build|\) AppleWebKit)
+; {0,2}(TAB) ?([78][12]4)(?: Build|\) AppleWebKit)
+; {0,2}(TAB-1012)(?: Build|\) AppleWebKit)
+; {0,2}(TAGI[ ]?)(MID) ?([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(TA[CD]-\d+[^;/]{0,100})(?: Build|\) AppleWebKit)
+; {0,2}(TA\-\d{4})(?: Build|\) AppleWebKit)
+; {0,2}(TB07STA|TB10STA|TB07FTA|TB10FTA)(?: Build|\) AppleWebKit)
+; {0,2}(TCL)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(TECNO[ _])([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(TM-MID\d+[^;/]{1,50}|TOUCHMATE|MID-750)(?: Build|\) AppleWebKit)
+; {0,2}(TM-SM\d+[^;/]{1,50}?)(?: Build|\) AppleWebKit)
+; {0,2}(TOUCH\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(TP-\d+)(?: Build|\) AppleWebKit)
+; {0,2}(TPC-\d+|JAY-TECH)(?: Build|\) AppleWebKit)
+; {0,2}(TPC[0-9]{4,5})(?: Build|\) AppleWebKit)
+; {0,2}(TP\d+(?:\.\d+|)\-\d[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(TREQ[ _\-])([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(T[BM]-\d{3}[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(T\-0[12][^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(ThinkPad) ?(Tablet) Build/
+; {0,2}(V(?:100|700|800)[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}(Videocon)[ _\-]([^;/]{1,100}?) {0,2}(?:Build|;)
+; {0,2}(ViewSonic-)([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Vodafone Smart II|Optimus_Madrid)(?: Build|\) AppleWebKit)
+; {0,2}(Vox|VOX|Arc|K080)(?: Build|\) AppleWebKit)
+; {0,2}(WF7C|WF10C|SBT[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(X-?5|X-?3)(?: Build|\) AppleWebKit)
+; {0,2}(X700|Hold X|MB-6900)(?: Build|\) AppleWebKit)
+; {0,2}(XCD)[ _]?(28|35)(?: Build|\) AppleWebKit)
+; {0,2}(Xperia (?:A8|Arc|Acro|Active|Live with Walkman|Mini|Neo|Play|Pro|Ray|X\d+)[^;/]{0,50}) Build
+; {0,2}(Xperia [^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(Z1[1235]0|E320[^/]{0,10}|S500|S510|Liquid[^;/]{0,30}|Iconia A\d+)(?: Build|\) AppleWebKit)
+; {0,2}(Zii)_([^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}(ZiiLABS) (Zii[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}(Zio|Hydro|Torque|Event|EVENT|Echo|Milano|Rise|URBANO PROGRESSO|WX04K|WX06K|WX10K|KYL21|101K|C5[12]\d{2})(?: Build|\) AppleWebKit)
+; {0,2}([0-9]+BP[EM][^;/]*|Endeavour[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}([A-Z]\d+)_USA_[^;]{0,200}(?: Build|\) AppleWebKit)
+; {0,2}([A-Z]{2,4})(M\d{3,}[A-Z]{2})([^;\)\/]*)(?: Build|[;\)])
+; {0,2}([BLRQ]C\d{4}[A-Z]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}([Bb]q) ([^;/]{1,100}?);?(?: Build|\) AppleWebKit)
+; {0,2}([Ff]olio ?100)(?: Build|\) AppleWebKit)
+; {0,2}([Ss]treak ?7)(?: Build|\) AppleWebKit)
+; {0,2}([Uu])([89]\d{3}) Build
+; {0,2}([Vv]ivo)[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}([^/]{1,30}_tenderloin)(?: Build|\) AppleWebKit)
+; {0,2}([^;/]{0,50})Coolpad[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}([^;/]{1,100}) Build[/ ]Huawei(MT1-U06|[A-Z]{1,50}\d+[^\);]{1,50})\)
+; {0,2}([^;\/]+) Build/HCL
+; {0,2}([^;]{1,200}) Build/(?:Huawei|HUAWEI)
+; {0,2}([^;]{1,200}) Build/(HONOR|Honor)
+; {0,2}([^;]{1,200}) Build/Karbonn
+; {0,2}([g|G]oogle)? (Pixel.{0,200}?)(?: Build|\) AppleWebKit)
+; {0,2}([g|G]oogle)? (Pixel[ a-zA-z0-9]{1,100});(?: Build|.{0,50}\) AppleWebKit)
+; {0,2}([iI]Buddy)[ _]?(Connect)(?:_|\?_| |)([^;/]{0,50}) {0,2}(?:Build|;)
+; {0,2}(andromax[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(dL1|DL1)(?: Build|\) AppleWebKit)
+; {0,2}(e\d{4}[a-z]?_?v\d+|v89_[^;/]{1,100})[^;/]{1,30} Build/
+; {0,2}(i-(?:style|note)[^/]{0,10})(?: Build|\) AppleWebKit)
+; {0,2}(iOCEAN) ([^/]{1,50})(?: Build|\) AppleWebKit)
+; {0,2}(iP[789]\d{2}(?:-3G)?|IP10\d{2}(?:-8GB)?)(?: Build|\) AppleWebKit)
+; {0,2}(imx5[13]_[^/]{1,50})(?: Build|\) AppleWebKit)
+; {0,2}(iphone|iPhone5) Build/
+; {0,2}(moto)(.{0,50})(?: Build|\) AppleWebKit)
+; {0,2}(myTab[^;/]*)(?: Build|\) AppleWebKit)
+; {0,2}(one ?touch) (EVO7|T10|T20)(?: Build|\) AppleWebKit)
+; {0,2}(papyre)[ _\-]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(q\d0{2,3}[a-z]?)(?: Build|\) AppleWebKit)
+; {0,2}(tolino [^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}(vp9plus)\)
+; {0,2}AIRIS[ _\-]?([^/;\)]+) {0,2}(?:;|\)|Build)
+; {0,2}ASUS[ _]{0,10}([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}Acer Iconia Tab ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}Airpad[ \-]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}Android for (Telechips|Techvision) ([^ ]+) 
+; {0,2}Aoson ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}BASE_Lutea_3(?: Build|\) AppleWebKit)
+; {0,2}BASE_Varia(?: Build|\) AppleWebKit)
+; {0,2}Build/.{0,200} (TOLINO_BROWSER)
+; {0,2}CAPTIVA ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}CUBOT ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}Dell[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}Explay[_ ](.{1,200}?)(?:[\)]| Build)
+; {0,2}GOCLEVER ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}Garmin-Asus ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}HP ([^/]{1,50})(?: Build|\) AppleWebKit)
+; {0,2}HTC[ _]([^;]{1,200}); Windows Phone
+; {0,2}HYUNDAI (T\d[^/]{0,10})(?: Build|\) AppleWebKit)
+; {0,2}HYUNDAI ([^;/]{1,10}?)(?: Build|\) AppleWebKit)
+; {0,2}Haier[ _\-]([^/]{1,50})(?: Build|\) AppleWebKit)
+; {0,2}IVIO[_\-]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}Karbonn[ _]?([^;/]{1,100}) {0,2}(?:Build|;)
+; {0,2}LAVA[ _]([^;/]{1,100}) Build
+; {0,2}MEDION ([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}Micromax[ _](A\d{2,3}[^;/]*) Build
+; {0,2}Micromax[ _](P\d{3}[^;/]*) Build
+; {0,2}Multilaser[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}OMEGA[ _\-](MID[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}OPPO ?([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}POV[ _\-]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}Pantech([^;/]{1,30}).{0,200}? Build/
+; {0,2}WellcoM-([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}XOLO[ _]([^;/]{0,30}tab.{0,30})(?: Build|\) AppleWebKit)
+; {0,2}XOLO[ _]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}[Aa]panda[ _\-]([^;/]{1,100}?)(?: Build|\) AppleWebKit)
+; {0,2}[^;/]{1,100} Build/(?:CROSS|Cross)+[ _\-]([^\)]+)
+; {0,2}i-?mobile[ _]([^/]{1,50})(?: Build|\) AppleWebKit)
+; {0,2}itel ([^;/]*)(?: Build|\) AppleWebKit)
+ARCHOS; GOGI; ([^;]{1,200});
+Android 4\..{0,200}; {0,2}(M[12356789]|U[12368]|S[123])\ ?(pro)?(?: Build|\) AppleWebKit)
+Android Application[^\-]{1,300} - (?:HTC|HUAWEI|LGE|LENOVO|MEDION|TCT) (HTC|HUAWEI|LG|LENOVO|MEDION|ALCATEL)[ _\-](.{1,200}) \w{1,20} - 
+Android Application[^\-]{1,300} - (Sony) ?(Ericsson|) (.{1,200}) \w{1,20} - 
+Android Application[^\-]{1,300} - ([^ ]+) (.{1,200}) \w{1,20} - 
+Android [34].{0,200}; {0,2}(A100|A101|A110|A200|A210|A211|A500|A501|A510|A511|A700(?: Lite| 3G|)|A701|B1-A71|A1-\d{3}|B1-\d{3}|V360|V370|W500|W500P|W501|W501P|W510|W511|W700|Slider SL101|DA22[^;/]{1,100}?)(?: Build|\) AppleWebKit)
+Android [^;]{1,200}; ([^ ]+) (Sony)/
+Android \d+?(?:\.\d+|)(?:\.\d+|); ([^;]{1,100}?)(?: Build|\) AppleWebKit).{1,200}? Mobile Safari
+Android \d+?(?:\.\d+|)(?:\.\d+|); ([^;]{1,100}?)(?: Build|\) AppleWebKit).{1,200}? Safari
+Android \d+?(?:\.\d+|)(?:\.\d+|); ([^;]{1,100}?)(?: Build|\))
+Android[\- ][\d]+(?:\.[\d]+)(?:\.[\d]+|); {0,2}[A-Za-z]{0,2}\- {0,2}; {0,2}(.{1,200}?)( Build[/ ]|\))
+Android[\- ][\d]+(?:\.[\d]+)(?:\.[\d]+|); {0,2}[A-Za-z]{2}[_\-][A-Za-z]{0,2}\-? {0,2}; {0,2}(.{1,200}?)( Build[/ ]|\))
+Android[\- ][\d]+(?:\.[\d]+)(?:\.[\d]+|); {0,2}[a-z]{0,2}[_\-]?[A-Za-z]{0,2};?( Build[/ ]|\))
+Android[\- ][\d]+(?:\.[\d]+)(?:\.[\d]+|); {0,3}\-?[A-Za-z]{2}; {0,2}(.{1,50}?)( Build[/ ]|\))
+Android[\- ][\d]+\.[\d]+; [A-Za-z]{2}\-[A-Za-z]{0,2}; WOWMobile (.{1,200})( Build[/ ]|\))
+Android[\- ][\d]+\.[\d]+\-update1; [A-Za-z]{2}\-[A-Za-z]{0,2} {0,2}; {0,2}(.{1,200}?)( Build[/ ]|\))
+AppleWebKit.{1,200} (NX)/(\d+)\.(\d+)\.(\d+)
+AppleWebKit/\d{1,10}\.\d{1,10}.{0,200} Safari.{0,200} (CreativeCloud)/(\d+)\.(\d+).(\d+)
+ArcGIS Client Using WinInet
+ArcGISRuntime-(?:Android|iOS)\/\d+\.\d+(?:\.\d+|) \((Android|iOS) (\d+)(?:\.(\d+)(?:\.(\d+)|)|);
+ArcGISRuntime-(Android|iOS|NET|Qt)/(\d+)\.(\d+)(?:\.(\d+)|)
+ArcGIS\.?(iOS|Android)-\d+\.\d+(?:\.\d+|)(?:[^\/]{1,50}|)\/(\d+)(?:\.(\d+)(?:\.(\d+)|)|)
+ArcGIS\.?(iOS|Android|NET|Qt)(?:-|\.)(\d+)\.(\d+)(?:\.(\d+)|)
+ArcGIS\.Runtime\.(Qt)\.(\d+)\.(\d+)(?:\.(\d+)|)
+AspiegelBot|PetalBot
+BB10; ([A-Za-z0-9\- ]+)\)
+BMP;
+Black[Bb]erry ([0-9]+);
+Black[Bb]erry([0-9]+)
+Black[Bb]erry;
+Build/(?:[Cc]elkon)+_?([^;/_\)]+)
+Build/HCL ME Tablet ([^;\)]{1,3})[\);]
+CFNetwork/.{0,100} Darwin/
+CFNetwork/.{0,100} Darwin/(10)\.\d+
+CFNetwork/.{0,100} Darwin/(11)\.\d+
+CFNetwork/.{0,100} Darwin/(13)\.\d+
+CFNetwork/.{0,100} Darwin/(20)\.\d+
+CFNetwork/.{0,100} Darwin/(21)\.\d+
+CFNetwork/.{0,100} Darwin/(22)\.\d+
+CFNetwork/.{0,100} Darwin/(9)\.\d+
+CFNetwork/.{0,100} Darwin/16\.\d+.{0,100}\(x86_64\)
+CFNetwork/.{0,100} Darwin/17\.\d+.{0,100}\(x86_64\)
+CFNetwork/.{0,100} Darwin/22\.0\.\d+
+CFNetwork/.{0,100} Darwin/22\.1\.\d+
+CFNetwork/.{0,100} Darwin/22\.2\.\d+
+CFNetwork/.{0,100} Darwin/22\.3\.\d+
+CFNetwork/.{0,100} Darwin/22\.4\.\d+
+CFNetwork/.{0,100} Darwin/\d
+CFNetwork/.{0,100} Darwin/\d+\.\d+\.\d+ \(x86_64\)
+CFNetwork/.{0,100} Darwin/\d.{0,100}\(((?:Mac|iMac|PowerMac|PowerBook)[^\d]*)(\d+)(?:,|%2C)(\d+)
+CFNetwork/11.{0,100} Darwin/19\.2\.\d+
+CFNetwork/11.{0,100} Darwin/19\.3\.\d+
+CFNetwork/11.{0,100} Darwin/19\.4\.\d+
+CFNetwork/11.{0,100} Darwin/19\.5\.\d+
+CFNetwork/11.{0,100} Darwin/19\.6\.\d+
+CFNetwork/12.{0,100} Darwin/20\.1\.\d+
+CFNetwork/12.{0,100} Darwin/20\.2\.\d+
+CFNetwork/12.{0,100} Darwin/20\.3\.\d+
+CFNetwork/12.{0,100} Darwin/20\.4\.\d+
+CFNetwork/12.{0,100} Darwin/20\.5\.\d+
+CFNetwork/12.{0,100} Darwin/20\.6\.\d+
+CFNetwork/13.{0,100} Darwin/21\.0\.\d+
+CFNetwork/13.{0,100} Darwin/21\.1\.\d+
+CFNetwork/13.{0,100} Darwin/21\.2\.\d+
+CFNetwork/13.{0,100} Darwin/21\.3\.\d+
+CFNetwork/13.{0,100} Darwin/21\.4\.\d+
+CFNetwork/13.{0,100} Darwin/21\.5\.\d+
+CFNetwork/13.{0,100} Darwin/21\.6\.\d+
+CFNetwork/1[01].{0,100} Darwin/19\.\d+
+CFNetwork/6.{0,100} Darwin/(14)\.\d+
+CFNetwork/7.{0,100} Darwin/(14)\.\d+
+CFNetwork/7.{0,100} Darwin/(15)\.\d+
+CFNetwork/7.{0,100} Darwin/15\.4\.\d+
+CFNetwork/7.{0,100} Darwin/15\.5\.\d+
+CFNetwork/7.{0,100} Darwin/15\.6\.\d+
+CFNetwork/8.{0,100} Darwin/(16)\.\d+
+CFNetwork/8.{0,100} Darwin/(17)\.\d+
+CFNetwork/8.{0,100} Darwin/15\.\d+.{0,100}\(x86_64\)
+CFNetwork/8.{0,100} Darwin/16\.5\.\d+
+CFNetwork/8.{0,100} Darwin/16\.6\.\d+
+CFNetwork/8.{0,100} Darwin/16\.7\.\d+
+CFNetwork/8.{0,100} Darwin/17\.0\.\d+
+CFNetwork/8.{0,100} Darwin/17\.2\.\d+
+CFNetwork/8.{0,100} Darwin/17\.3\.\d+
+CFNetwork/8.{0,100} Darwin/17\.4\.\d+
+CFNetwork/8.{0,100} Darwin/17\.5\.\d+
+CFNetwork/808\.3 Darwin/16\.3\.\d+
+CFNetwork/9.{0,100} Darwin/(18)\.\d+
+CFNetwork/9.{0,100} Darwin/17\.6\.\d+
+CFNetwork/9.{0,100} Darwin/17\.7\.\d+
+CFNetwork/9.{0,100} Darwin/18\.0\.\d+
+CFNetwork/9.{0,100} Darwin/18\.2\.\d+
+CFNetwork/9.{0,100} Darwin/18\.5\.\d+
+CFNetwork/9.{0,100} Darwin/18\.6\.\d+
+CFNetwork/9.{0,100} Darwin/18\.7\.\d+
+Chrome/.{1,200}( MMS)/(\d+).(\d+).(\d+)
+CrKey.*DeviceType/([^/]*)
+CrKey/
+DoCoMo/2\.0 ([A-Za-z0-9]+)
+ESPN APP$
+EspnDownloadManager
+Fuchsia.*(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+)|)|)
+Fuchsia.*CrKey
+Gecko/\d+ (Lightning)/(\d+)\.(\d+)\.?((?:[ab]?\d+[a-z]*)|(?:\d*))
+Google.{0,50}/\+/web/snippet
+HPiPAQ([A-Za-z0-9]{1,20})/\d+\.\d+
+HTC Streaming Player [^\/]{0,30}/[^\/]{0,10}/ htc_([^/]{1,10}) /
+HUAWEI ([A-Za-z0-9\-]+)
+HUAWEI-([A-Za-z0-9]+)
+HbbTV/1.1.1 \(;;;;;\) Maple_2011
+HbbTV/1\.1\.1 \(; (Philips);.{0,200}NETTV/2
+HbbTV/1\.1\.1 \(; (Philips);.{0,200}NETTV/3
+HbbTV/1\.1\.1 \(; (Philips);.{0,200}NETTV/4
+HbbTV/\d+\.\d+\.\d+ \( ;(LG)E ;NetCast 3.0
+HbbTV/\d+\.\d+\.\d+ \( ;(LG)E ;NetCast 4.0
+HbbTV/\d+\.\d+\.\d+ \(.{0,30}; ?([a-zA-Z]+) ?;.{0,30}(201[1-9]).{0,30}\)
+HbbTV/\d+\.\d+\.\d+ \(;(Samsung);SmartTV([0-9]{4});.{0,200}FXPDEUC
+HbbTV/\d+\.\d+\.\d+ \(;(Samsung);SmartTV([0-9]{4});.{0,200}MST12DEUC
+HbbTV/\d+\.\d+\.\d+.{0,100}(firetv)-firefox-plugin (\d+).(\d+).(\d+)
+Huawei([A-Za-z0-9]+)
+InettvBrowser/[0-9]{1,30}\.[0-9A-Z]{1,30} \([^;]{0,200};(Sony)([^;]{0,200});[^;]{0,200};[^\)]{0,10}\)
+InettvBrowser/[0-9]{1,30}\.[0-9A-Z]{1,30} \([^;]{0,200};([^;]{0,200});[^;]{0,200};[^\)]{0,10}\)
+Intel Mac OS X.+(CriOS|EdgiOS)/\d+
+KWC\-([A-Za-z0-9]+)
+Kyocera\-([A-Za-z0-9]+)
+LGE; (?:Media\/|)([^;]{0,200});[^;]{0,200};[^;]{0,200};?\); "?LG NetCast(\.TV|\.Media|)-\d+
+Lenovo[_\-]([A-Za-z0-9]+)
+Linux.*(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+)|)|)
+Linux.*(CrKey)(?:[/](\d+)\.(\d+)(?:\.(\d+)|)|).*DeviceType/SmartSpeaker
+Linux.*CrKey/1.36
+Lumia ([A-Za-z0-9\-]+)
+MOTO\-([A-Za-z0-9]+)
+MOT\-([A-z0-9][A-z0-9\-]*)
+Mac OS
+Mac OS X\s.{1,50}\s(\d+).(\d+).(\d+)
+Mac_PowerPC
+Microsoft Office (Word) 2014
+Microsoft Office Outlook 12\.\d+\.\d+|MSOffice 12
+Microsoft Outlook (?:Mail )?16\.\d+\.\d+|MSOffice 16
+Microsoft Outlook 14\.\d+\.\d+|MSOffice 14
+Microsoft Outlook 15\.\d+\.\d+
+Motorola\-([A-Za-z0-9]+)
+Mozilla.{0,200}(AspiegelBot|PetalBot)
+Mozilla.{1,100}Mobile.{1,100}(AspiegelBot|PetalBot)
+Mozilla.{1,200}(Ddg)/(\d+)(?:\.(\d+)|)
+Mozilla.{1,200}(DuckDuckGo)/(\d+)
+Mozilla.{1,200}Android.{1,200}(GSA)/(\d+)\.(\d+)\.(\d+)
+Mozilla.{1,200}Mobile.{1,100}(Ddg)/(\d+)(?:\.(\d+)|)
+Mozilla.{1,200}Mobile.{1,100}(DuckDuckGo)/(\d+)
+Mozilla.{1,200}Mobile.{1,100}(Flipboard).(\d+)\.(\d+)\.(\d+)
+Mozilla.{1,200}Mobile.{1,100}(Flipboard-Briefing).(\d+)\.(\d+)\.(\d+)
+Mozilla.{1,200}Mobile.{1,100}(Instagram).(\d+)\.(\d+)\.(\d+)
+Mozilla.{1,200}Mobile.{1,100}(Onefootball)\/Android.(\d+)\.(\d+)\.(\d+)
+Mozilla.{1,200}Mobile.{1,100}(Phantom\/ios|Phantom\/android).(\d+)\.(\d+)\.(\d+)
+Nintendo (Switch|DS|3DS|DSi|Wii);
+Nintendo WiiU
+Nokia(N[0-9]+)([A-Za-z_\-][A-Za-z0-9_\-]*)
+Opera Mobi
+Opera Mobi.{1,100}(Opera)(?:/|\s+)(\d+)\.(\d+)
+Outlook-(iOS)/\d+\.\d+\.prod\.iphone
+Outlook-Express\/7\.0
+PAN (GlobalProtect)/(\d+)\.(\d+)\.(\d+) .{1,100} \(X11; Linux x86_64\)
+PDA; (PalmOS)/sony/model ([a-z]+)/Revision
+PLAYSTATION 3
+PLAYSTATION 3.{1,200}WebKit
+Palm([0-9]+)
+Philips ([A-Za-z0-9]+)
+Philips([A-Za-z0-9]+)
+Play[Bb]ook.{1,200}RIM Tablet OS
+Puffin/[\d\.]+AP
+Puffin/[\d\.]+AT
+Puffin/[\d\.]+IP
+Puffin/[\d\.]+IT
+Quest
+Quest 2
+Quest 3
+Quest Pro
+SAMSUNG(?:; |[ -/])([A-Za-z0-9\-]+)
+SAMSUNG-ANDROID-MMS/([^;/]{1,100})
+Series30Plus;
+Series40;
+Series60/\d\.\d (LG)[\-]?([A-Za-z0-9 \-]+)
+Softbank/[12]\.0/([A-Za-z0-9]+)
+SonyEricsson ?([A-Za-z0-9\-]+)
+SunOS
+Superhuman
+Symbian [Oo][Ss]
+SymbianOS/9\.\d.{0,200} Samsung[/\-]([A-Za-z0-9 \-]+)
+Treo([A-Za-z0-9]+)
+Version/.{1,300}(Chrome)/(\d+)\.(\d+)\.(\d+)\.(\d+)
+Win(?:dows)? ?(95|98|3.1|NT|ME|2000|XP|Vista|7|CE)
+Win16
+Win32
+Windows Phone .{0,200}(Edge)/(\d+)\.(\d+)
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|)(?:ALCATEL)[^;]{0,200}; {0,2}([^;,\)]+)
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|)(?:DELL|Dell)[^;]{0,200}; {0,2}([^;,\)]+)
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|)(?:HUAWEI)[^;]{0,200}; {0,2}(?:HUAWEI |)([^;,\)]+)
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|)(?:LG|Lg)[^;]{0,200}; {0,2}(?:LG[ \-]|)([^;,\)]+)
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|)(?:Microsoft(?: Corporation|))[^;]{0,200}; {0,2}([^;,\)]+)
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|)(?:NOKIA|Nokia)[^;]{0,200}; {0,2}(RM-\d{3,})
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|)(?:rv:11; |)(?:NOKIA|Nokia)[^;]{0,200}; {0,2}(?:NOKIA ?|Nokia ?|LUMIA ?|[Ll]umia ?|)(\d{3,10}[^;\)]*)
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|WpsLondonTest; ?|)(?:ASUS|Asus)[^;]{0,200}; {0,2}([^;,\)]+)
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|WpsLondonTest; ?|)(?:HTC|Htc|HTC_blocked[^;]{0,200})[^;]{0,200}; {0,2}(?:HTC|)([^;,\)]+)
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|WpsLondonTest; ?|)(?:SAMSUNG)[^;]{0,200}; {0,2}(?:SAMSUNG |)([^;,\.\)]+)
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|WpsLondonTest; ?|)(?:TOSHIBA|FujitsuToshibaMobileCommun)[^;]{0,200}; {0,2}([^;,\)]+)
+Windows Phone [^;]{1,30}; .{0,100}?IEMobile/[^;\)]+[;\)] ?(?:ARM; ?Touch; ?|Touch; ?|WpsLondonTest; ?|)([^;]{1,200}); {0,2}([^;,\)]+)
+X11; (Datanyze); Linux
+X11; Datanyze; Linux
+YahooMailProxy; https://help\.yahoo\.com/kb/yahoo-mail-proxy-SLN28749\.html
+[;,] (?:Vodafone |)(SmartTab) ?(II) ?(\d+) Build/
+[;:] {0,2}(L-\d+[A-Z]|LGL\d+[A-Z]?)(?:/V\d+|) {0,2}(?:Build|[;\)])
+\((?:Mobile|Tablet);.{1,200}Firefox/\d+\.\d+
+\((?:Mobile|Tablet);.{1,200}Gecko/18.0 Firefox/\d+\.\d+
+\((?:Mobile|Tablet);.{1,200}Gecko/18.1 Firefox/\d+\.\d+
+\((?:Mobile|Tablet);.{1,200}Gecko/26.0 Firefox/\d+\.\d+
+\((?:Mobile|Tablet);.{1,200}Gecko/28.0 Firefox/\d+\.\d+
+\((?:Mobile|Tablet);.{1,200}Gecko/30.0 Firefox/\d+\.\d+
+\((?:Mobile|Tablet);.{1,200}Gecko/32.0 Firefox/\d+\.\d+
+\((?:Mobile|Tablet);.{1,200}Gecko/34.0 Firefox/\d+\.\d+
+\((Bada);
+\((freebsd)(\d+)\.(\d+)\)
+\((iOS);
+\(Mobile; (?:ZTE([^;]{1,200})|(OpenC)); rv:[^\)]{1,200}\) Gecko/[^\/]{1,200} Firefox/
+\(Mobile; ALCATEL ?(One|ONE) ?(Touch|TOUCH) ?([^;/]{1,100}?)(?:/[^;]{1,200}|); rv:[^\)]{1,200}\) Gecko/[^\/]{1,200} Firefox/
+\(Mobile; ALCATEL([A-Za-z0-9\-]+); rv:[^\)]{1,200}\) Gecko/[^\/]{1,200} Firefox/[^\/]{1,200} KaiOS/
+\(Mobile; LYF\/([A-Za-z0-9\-]{1,100})\/.{0,100};.{0,100}rv:[^\)]{1,100}\) Gecko/[^\/]{1,100} Firefox/[^\/]{1,100} KAIOS/
+\(Mobile; Nokia_([A-Za-z0-9\-]{1,100})_.{1,100}; rv:[^\)]{1,100}\) Gecko/[^\/]{1,100} Firefox/[^\/]{1,100} KAIOS/
+\(Symbian(?:/3|); U; ([^;]{1,200});
+\(Symbian; U; S60 V5; [A-z]{2}\-[A-z]{2}; (SonyEricsson|Samsung|Nokia|LG)([^;/]{1,100}?)\)
+\(linux-gnu\)
+\(x86_64-redhat-linux-gnu\)
+\[(FBAN/MessengerForiOS|FB_IAB/MESSENGER);FBAV/(\d+)(?:\.(\d+)(?:\.(\d+)(?:\.(\d+)|)|)|)
+\[(Pinterest)/[^\]]{1,50}\]
+\[FB.{0,300};
+\[FB.{0,300};(FBAV)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+\b(008|Altresium|Argus|BaiduMobaider|BoardReader|DNSGroup|DataparkSearch|EDI|Goodzer|Grub|INGRID|Infohelfer|LinkedInBot|LOOQ|Nutch|OgScrper|Pandora|PathDefender|Peew|PostPost|Steeler|Twitterbot|VSE|WebCrunch|WebZIP|Y!J-BR[A-Z]|YahooSeeker|envolk|sproose|wminer)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+\b(?:HTC/|HTC/[a-z0-9]{1,20}/|)HTC[ _\-;]? {0,2}(.{0,200}?)(?:-?Mozilla|fingerPrint|[;/\(\)]|$)
+\b(?:LGE[ \-]LG\-(?:AX|)|LGE |LGE?-LG|LGE?[ \-]|LG[ /\-]|lg[\-])([A-Za-z0-9]+)\b
+\b(?:Lenovo|LENOVO)+[ _\-]?([^,;:/ ]+)
+\b(Boto3?|JetS3t|aws-(?:cli|sdk-(?:cpp|go|java|nodejs|ruby2?|dotnet-(?:\d{1,2}|core)))|s3fs)/(\d+)\.(\d+)(?:\.(\d+)|)
+\b(Dolphin)(?: |HDCN/|/INT\-)(\d+)\.(\d+)(?:\.(\d+)|)
+\b(HTTrack) (\d+)\.(\d+)(?:[\.\-](\d+)|)
+\b(Kobo Touch)\b
+\b(MobileIron|FireWeb|Jasmine|ANTGalio|Midori|Fresco|Lobo|PaleMoon|Maxthon|Lynx|OmniWeb|Dillo|Camino|Demeter|Fluid|Fennec|Epiphany|Shiira|Sunrise|Spotify|Flock|Netscape|Lunascape|WebPilot|NetFront|Netfront|Konqueror|SeaMonkey|Kazehakase|Vienna|Iceape|Iceweasel|IceWeasel|Iron|K-Meleon|Sleipnir|Galeon|GranParadiso|Opera Mini|iCab|NetNewsWire|ThunderBrowse|Iris|UP\.Browser|Bunjalloo|Google Earth|Raven for Mac|Openwave|MacOutlook|Electron|OktaMobile)/(\d+)\.(\d+)\.(\d+)
+\b(Series 60|SymbOS|S60Version|S60V\d|S60\b)
+\b(Sprint)[: ]([^;,/ ]+)
+\b(T-Mobile ?|)(myTouch)[ _]?([34]G)[ _]?([^\/]*) (?:Mozilla|Build)
+\b(T-Mobile)[_ ]?(.{0,200}?)Build
+\b(T-Mobile)_([^_]+)_(.{0,200}) Build
+\b(TOSHIBA_AC_AND_AZ|TOSHIBA_FOLIO_AND_A|FOLIO_AND_A)
+\b(Windows-Update-Agent|WindowsPowerShell|Microsoft-CryptoAPI|SophosUpdateManager|SophosAgent|Debian APT-HTTP|Ubuntu APT-HTTP|libcurl-agent|libwww-perl|urlgrabber|curl|PycURL|Wget|wget2|aria2|Axel|OpenBSD ftp|lftp|jupdate|insomnia|fetch libfetch|akka-http|got|CloudCockpitBackend|ReactorNetty|axios|Jersey|Vert.x-WebClient|Apache-CXF|Go-CF-client|go-resty|AHC|HTTPie)(?:[ /](\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)
+\b(iOS[ /]|iOS; |iPhone(?:/| v|[ _]OS[/,]|; | OS : |\d,\d/|\d,\d; )|iPad/)(\d{1,2})[_\.](\d{1,2})(?:[_\.](\d+)|)
+\b(ibm-cos-sdk-(?:core|java|js|python))/(\d+)\.(\d+)(?:\.(\d+)|)
+\bBIRD[ \-\.]([A-Za-z0-9]+)
+\bDell ([A-Za-z0-9]+)
+\bSmartWatch {0,2}\( {0,2}([^;]{1,200}) {0,2}; {0,2}([^;]{1,200}) {0,2};
+\bUSCC[_\-]?([^ ;/\)]+)
+\sGIONEE[-\s_](\w*)
+^(.{0,200})-iPad\/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|) CFNetwork
+^(.{0,200})-iPhone/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|) CFNetwork
+^(.{0,200})/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)(?:\.(\d+)|) CFNetwork
+^(1207|3gso|4thp|501i|502i|503i|504i|505i|506i|6310|6590|770s|802s|a wa|acer|acs\-|airn|alav|asus|attw|au\-m|aur |aus |abac|acoo|aiko|alco|alca|amoi|anex|anny|anyw|aptu|arch|argo|bmobile|bell|bird|bw\-n|bw\-u|beck|benq|bilb|blac|c55/|cdm\-|chtm|capi|comp|cond|dall|dbte|dc\-s|dica|ds\-d|ds12|dait|devi|dmob|doco|dopo|dorado|el(?:38|39|48|49|50|55|58|68)|el[3456]\d{2}dual|erk0|esl8|ex300|ez40|ez60|ez70|ezos|ezze|elai|emul|eric|ezwa|fake|fly\-|fly_|g\-mo|g1 u|g560|gf\-5|grun|gene|go.w|good|grad|hcit|hd\-m|hd\-p|hd\-t|hei\-|hp i|hpip|hs\-c|htc |htc\-|htca|htcg)
+^(?:AMOI|Amoi)[ _]([^;/]{1,100}?) Linux
+^(AlexaMediaPlayer|VLC)/(\d+)\.(\d+)\.([^.\s]+)
+^(AntennaPod|WMPlayer|Zune|Podkicker|Radio|ExoPlayerDemo|Overcast|PocketTunes|NSPlayer|okhttp|DoggCatcher|QuickNews|QuickTime|Peapod|Podcasts|GoldenPod|VLC|Spotify|Miro|MediaGo|Juice|iPodder|gPodder|Banshee)/(\d+)\.(\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+^(Box(?: Sync)?)/(\d+)\.(\d+)\.(\d+)
+^(Clementine)\S{1,10} (\d+)\.(\d+|)\.?(\d+|)
+^(Cyberduck)/(\d+)\.(\d+)\.(\d+)(?:\.\d+|)
+^(GuzzleHttp)/(\d+)\.(\d+).(\d+)
+^(HTC) Streaming Player \S+ / \S+ / \S+ / (\d+)\.(\d+)(?:\.(\d+)|)
+^(Ice)$
+^(JUC).{0,200}; ?U; ?(?:Android|)(\d+)\.(\d+)(?:[\.\-]([a-z0-9]{1,100})|)
+^(Java-EurekaClient|Java-EurekaClient-Replication|HTTPClient|lua-resty-http)\/v?(\d+)\.(\d+)\.?(\d*)
+^(LG)-([^;/]{1,100})/ Mozilla/.{0,200}; Android
+^(Lavf)
+^(Luminary)/(\d+)(?:\.(\d+)|)(?:\.(\d+)|)
+^(Luminary)[Stage]+/(\d+) CFNetwork
+^(MID7500|MID\d+) Mozilla/5\.0 \(iPad;
+^(Nokia)
+^(Peapod|Liferea)/([^.\s]+)\.([^.\s]+|)\.?([^.\s]+|)
+^(Podcast ?Addict) 
+^(Podcast ?Addict)/v(\d+) 
+^(RSSRadio)[ /]?(\d+|)
+^(Roku)/DVP-(\d+)\.(\d+)
+^(Roku)/DVP-\d+\.\d+
+^(S3 Browser) (\d+)[.-](\d+)[.-](\d+)(?:\s*https?://s3browser\.com|)
+^(SAP NetWeaver Application Server) \(1.0;(\d{1})(\d{2})\)
+^(Stitcher)/Android
+^(Stitcher)/iOS
+^(VLC) .{0,200}version (\d+)\.(\d+)\.(\d+)
+^(ViaFree|Viafree)-(?:tvOS-)?[A-Z]{2}/(\d+)\.(\d+)\.(\d+)
+^(\w+-HTTPClient)\/(\d+)\.(\d+)-(\S+)
+^(bPod|Player FM) BMID/(\S+)
+^(bPod|Pocket Casts|Player FM)$
+^(cf)\/(\d+)\.(\d+)\.(\S+)
+^(foobar)\S{1,10}/(\d+)\.(\d+|)\.?([\da-z]+|)
+^(go-cli)\s(\d+)\.(\d+).(\S+)
+^(grab)\b
+^(htcp|htcs|htct|htc_|haie|hita|huaw|hutc|i\-20|i\-go|i\-ma|i\-mobile|i230|iac|iac\-|iac/|ig01|im1k|inno|iris|jata|kddi|kgt|kgt/|kpt |kwc\-|klon|lexi|lg g|lg\-a|lg\-b|lg\-c|lg\-d|lg\-f|lg\-g|lg\-k|lg\-l|lg\-m|lg\-o|lg\-p|lg\-s|lg\-t|lg\-u|lg\-w|lg/k|lg/l|lg/u|lg50|lg54|lge\-|lge/|leno|m1\-w|m3ga|m50/|maui|mc01|mc21|mcca|medi|meri|mio8|mioa|mo01|mo02|mode|modo|mot |mot\-|mt50|mtp1|mtv |mate|maxo|merc|mits|mobi|motv|mozz|n100|n101|n102|n202|n203|n300|n302|n500|n502|n505|n700|n701|n710|nec\-|nem\-|newg|neon)
+^(http\.rb)/(\d+)\.(\d+).(\d+)
+^(iBrowser/Mini)(\d+).(\d+)
+^(iBrowser|iRAPP)/(\d+).(\d+)
+^(netf|noki|nzph|o2 x|o2\-x|opwv|owg1|opti|oran|ot\-s|p800|pand|pg\-1|pg\-2|pg\-3|pg\-6|pg\-8|pg\-c|pg13|phil|pn\-2|pt\-g|palm|pana|pire|pock|pose|psio|qa\-a|qc\-2|qc\-3|qc\-5|qc\-7|qc07|qc12|qc21|qc32|qc60|qci\-|qwap|qtek|r380|r600|raks|rim9|rove|s55/|sage|sams|sc01|sch\-|scp\-|sdk/|se47|sec\-|sec0|sec1|semc|sgh\-|shar|sie\-|sk\-0|sl45|slid|smb3|smt5|sp01|sph\-|spv |spv\-|sy01|samm|sany|sava|scoo|send|siem|smar|smit|soft|sony|t\-mo|t218|t250|t600|t610|t618|tcl\-|tdg\-|telm|tim\-|ts70|tsm\-|tsm3|tsm5|tx\-9|tagt)
+^(ping-service|sap xsuaa|Node-oauth|Site24x7|SAP CPI|JAEGER_SECURITY)
+^(rclone)/v(\d+)\.(\d+)
+^(rusoto)/(\d+)\.(\d+)\.(\d+)
+^(sap-leonardo-iot-sdk-nodejs) \/ (\d+)\.(\d+)\.(\d+)
+^(surveyon)/(\d+)\.(\d+)\.(\d+)
+^(talk|teli|topl|tosh|up.b|upg1|utst|v400|v750|veri|vk\-v|vk40|vk50|vk52|vk53|vm40|vx98|virg|vertu|vite|voda|vulc|w3c |w3c\-|wapj|wapp|wapu|wapm|wig |wapi|wapr|wapv|wapy|wapa|waps|wapt|winc|winw|wonu|x700|xda2|xdag|yas\-|your|zte\-|zeto|aste|audi|avan|blaz|brew|brvw|bumb|ccwa|cell|cldc|cmd\-|dang|eml2|fetc|hipt|http|ibro|idea|ikom|ipaq|jbro|jemu|jigs|keji|kyoc|kyok|libw|m\-cr|midp|mmef|moto|mwbp|mywa|newt|nok6|o2im|pant|pdxg|play|pluc|port|prox|rozo|sama|seri|smal|symb|treo|upsi|vx52|vx53|vx60|vx61|vx70|vx80|vx81|vx83|vx85|wap\-|webc|whit|wmlb|xda\-|xda_)
+^(ureq)[/ ](\d+)\.(\d+).(\d+)
+^.{0,100}(bot|BUbiNG|zao|borg|DBot|oegp|silk|Xenu|zeal|^NING|CCBot|crawl|htdig|lycos|slurp|teoma|voila|yahoo|Sogou|CiBra|Nutch|^Java/|^JNLP/|Daumoa|Daum|Genieo|ichiro|larbin|pompos|Scrapy|snappy|speedy|spider|msnbot|msrbot|vortex|^vortex|crawler|favicon|indexer|Riddler|scooter|scraper|scrubby|WhatWeb|WinHTTP|bingbot|BingPreview|openbot|gigabot|furlbot|polybot|seekbot|^voyager|archiver|Icarus6j|mogimogi|Netvibes|blitzbot|altavista|charlotte|findlinks|Retreiver|TLSProber|WordPress|SeznamBot|ProoXiBot|wsr\-agent|Squrl Java|EtaoSpider|PaperLiBot|SputnikBot|A6\-Indexer|netresearch|searchsight|baiduspider|YisouSpider|ICC\-Crawler|http%20client|Python-urllib|dataparksearch|converacrawler|Screaming Frog|AppEngine-Google|YahooCacheSystem|fast\-webcrawler|Sogou Pic Spider|semanticdiscovery|Innovazion Crawler|facebookexternalhit|Google.{0,200}/\+/web/snippet|Google-HTTP-Java-Client|BlogBridge|IlTrovatore-Setaccio|InternetArchive|GomezAgent|WebThumbnail|heritrix|NewsGator|PagePeeker|Reaper|ZooShot|holmes|NL-Crawler|Pingdom|StatusCake|WhatsApp|masscan|Google Web Preview|Qwantify|Yeti|OgScrper)
+^.{0,100}?(?:(?:iPhone|Windows CE|Windows Phone|Android).{0,300}(?:(?:Bot|Yeti)-Mobile|YRSpider|BingPreview|bots?/\d|(?:bot|spider)\.html)|AdsBot-Google-Mobile.{0,200}iPhone)
+^.{0,100}?(?:DoCoMo|\bMOT\b|\bLG\b|Nokia|Samsung|SonyEricsson).{0,200}(?:(?:Bot|Yeti)-Mobile|bots?/\d|(?:bot|crawler)\.html|(?:jump|google|Wukong)bot|ichiro/mobile|/spider|YahooSeeker)
+^.{0,200}?((?:[A-Za-z][A-Za-z0-9 -]{0,50}|)[^C][^Uu][Bb]ot)\b(?:(?:[ /]| v)(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)
+^.{0,200}?((?:[A-z0-9]{1,50}|[A-z\-]{1,50} ?|)(?: the |)(?:[Ss][Pp][Ii][Dd][Ee][Rr]|[Ss]crape|[Cc][Rr][Aa][Ww][Ll])[A-z0-9]{0,50})(?:(?:[ /]| v)(\d+)(?:\.(\d+)|)(?:\.(\d+)|)|)
+^.{0,200}?(?:\/[A-Za-z0-9\.]{0,50}|) {0,2}([A-Za-z0-9 \-_\!\[\]:]{0,50}(?:[Aa]rchiver|[Ii]ndexer|[Ss]craper|[Bb]ot|[Ss]pider|[Cc]rawl[a-z]{0,50}))[/ ](\d+)(?:\.(\d+)(?:\.(\d+)|)|)
+^.{0,50}?([A-Za-z0-9]{1,30});FOMA
+^.{0,50}?([A-Za-z0-9]{1,30})_W;FOMA
+^Box.{0,200};(Darwin)/(10)\.(1\d)(?:\.(\d+)|)
+^Box.{0,200}Windows/([\d.]+);
+^LG([0-9]+[A-Za-z]*)
+^SIE-([A-Za-z0-9]+)
+^UCWEB.{0,200}; (Adr) (\d+)\.(\d+)(?:[.\-]([a-z0-9]{1,100})|);
+^UCWEB.{0,200}; (iPad|iPh|iPd) OS (\d+)_(\d+)(?:_(\d+)|);
+^UCWEB.{0,200}; (wds) (\d+)\.(\d+)(?:\.(\d+)|);
+acer_([A-Za-z0-9]+)_
+arcgis-(collector|aurora)/(\d+)\.(\d+)\.(\d+)
+com.esri.(earth).phone/(\d+)\.(\d+)(?:\.(\d+)|)
+compatible; monitis
+iPhone
+i\-mate ([A-Za-z0-9]+)
+linux
+rekonq
+via ggpht\.com GoogleImageProxy
+vodafone([A-Za-z0-9]+)
+webOS.{0,200}(P160U(?:NA|))/(\d+).(\d+)

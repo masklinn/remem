@@ -1,0 +1,8 @@
+/target
+Cargo.lock
+flake.lock
+.DS_Store
+*.dSYM
+*.txt
+# binaries
+remem
